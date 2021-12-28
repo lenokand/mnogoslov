@@ -1,51 +1,184 @@
-@import '/node_modules/bootstrap/scss/bootstrap.scss';
-@import '/node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import url(/dist/font/stylesheet.css);
 
-.header {
-    .nav-link {
-        padding: .5rem 2rem !important;
-    }
-    .cart-informer {
-        .badge {
-            font-size: .67rem;
-            position: absolute;
-            transform: translate(-15px, 3px);
-        }
+// @function toRem($value) {
+//     $remValue: ($value / 16) + rem;
+//     @return $remValue;
+// }
+
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+    padding: 0;
+
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+a,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    font-family: 'TT Norms Pro', sans-serif;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+
+}
+
+// a {
+//   text-decoration: none;
+//   font-family: 'PT Sans Caption', sans-serif;
+// }
+
+/* Упрощаем работу с изображениями */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article>*+* {
+    margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+body.menu_open {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1410px;
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+@media screen and (max-width:1200px) {
+    .container {
+        max-width: 90%;
     }
 }
 
-.product {
-    &-image {
-        height: 200px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
 
-.add-to-cart-button {
+
+
+
+// бургер
+/* nav-icon-5 */
+.nav-icon-5{
+    width: 35px;
+    height: 30px;
+    margin: 10px 10px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .nav-icon-5 span{
+    background: linear-gradient(121.24deg, #0099FF 0%, #5ABBFF 99.99%, #5BBCFF 100%);
+    position: absolute;
+    // border-radius: 2px;
+    transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+    width:100%;
+    height: 4px;
+    transition-duration: 500ms
+  }
+  .nav-icon-5 span:nth-child(1){
+    top:0px;
+    left: 0px;
+  }
+  .nav-icon-5 span:nth-child(2){
+    top:13px;
+    left: 0px;
+    opacity:1;
+  }
+  .nav-icon-5 span:nth-child(3){
+    bottom:0px;
+    left: 0px;
+  }
+  .nav-icon-5:not(.open):hover span:nth-child(1){
+    transform: rotate(-3deg) scaleY(1.1);
+  }
+  .nav-icon-5:not(.open):hover span:nth-child(2){
+    transform: rotate(3deg) scaleY(1.1);
+  }
+  .nav-icon-5:not(.open):hover span:nth-child(3){
+    transform: rotate(-4deg) scaleY(1.1);
+  }
+  .nav-icon-5.open span:nth-child(1){
+    transform: rotate(45deg);
+    top: 13px;
+  }
+  .nav-icon-5.open span:nth-child(2){
+    opacity:0;
+  }
+  .nav-icon-5.open span:nth-child(3){
+    transform: rotate(-45deg);
+    top: 13px;
+  }
+
+//   меню
+header{
     display: flex;
-    align-items: center;
-    &::before {
-        display: block;
-        content: 'Add to cart'
-    }
-    &::after {
-        font-family: bootstrap-icons;
-        display: block;
-        margin-left: 1rem;
-        font-size: 1.25em;
-        content: '\f23e'
-    }
-    &:disabled::before {
-        display: block;
-        content: 'Already in cart'
-    }
-    &:disabled::after {
-        font-family: bootstrap-icons;
-        display: block;
-        margin-left: 1rem;
-        font-size: 1.25em;
-        content: '\f239'
+    justify-content: space-between;
+
+    .burger{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+
+        /* 4 */
+
+        color: #282828;
+
     }
 }

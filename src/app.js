@@ -1,17 +1,39 @@
-import 'bootstrap'
-import './js/router'
-import Storage from './js/_storage'
+// // адаптив
+// function fontSize() {
+//     if ($(window).width() < 900) {
+//       $('html').css({
+//         fontSize: 16 + 'px'
+//       });
+//     }
+  
+//     if ($(window).width() > 900) {
+//       var width = 1920; // ширина, от которой идет отсчет
+  
+//       var fontSize = 16; // минимальный размер шрифта
+  
+//       var bodyWidth = $('html').width();
+//       var multiplier = bodyWidth / width;
+//       if ($('html').width() >= width) fontSize = Math.floor(fontSize * multiplier);
+//       if ($('html').width() < width) fontSize = Math.floor(fontSize * multiplier);
+//       $('html').css({
+//         fontSize: fontSize + 'px'
+//       });
+//     }
+//   }
+  
+//   $(function () {
+//     fontSize();
+//   });
+//   $(window).resize(function () {
+//     fontSize();
+//   });
 
-Storage.fetchCart()
 
-document.onclick = function(e) {
-    if(e.target.classList.contains('add-to-cart-button')) {
-        Storage.addToCart({
-            id: e.target.getAttribute('data-id'),
-            title: e.target.getAttribute('data-title'),
-            image: e.target.getAttribute('data-image'),
-            price: e.target.getAttribute('data-price'),
-        })
-        e.target.setAttribute('disabled', true)
-    }
-}
+
+
+const icon = document.querySelector('.burger-icon');
+
+  icon.addEventListener('click', (event) => {
+    icon.classList.toggle("open");
+ 
+});
