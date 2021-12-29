@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -8,42 +8,541 @@
     <title>Document</title>
     <meta name="robots" content="noindex, nofollow" />
     <link rel="icon" type="image/x-icon" sizes="16x16" href="icons/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="bundle.css">
 </head>
 
 <body class="">
+    <div class="bg_image">
+        <img src="products/bg_main.png" alt="">
+    </div>
+
     <div class="container">
         <header>
-        <div class="wrapper">
-            <div class="logo">
-                <a href="">
-                    <img src="public/logo.png " alt="">
-                </a>
-                
-                <div class="line"></div>
-                <div class="logo_sign">
-                    Комплексное продвижение <br>
-                    и разработка сайтов
+
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="" class="logo_img">
+                        <img src="products/logo.png " alt="">
+                    </a>
+
+                    <div class="line"></div>
+                    <div class="logo_sign">
+                        Комплексное продвижение <br>
+                        и разработка сайтов
+                    </div>
+                </div>
+                <div class="phone">
+                    <a href="tel:+38 (050) 835-51-21">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="24" cy="24" r="22.5" stroke="#0099FF" stroke-width="3" />
+                            <path
+                                d="M31.5789 26.8516C30.4686 26.8516 29.3811 26.6782 28.3503 26.3381C27.8473 26.1647 27.276 26.2983 26.9454 26.6356L24.9019 28.1789C22.5572 26.9274 21.0565 25.4277 19.8221 23.1L21.3237 21.1048C21.7017 20.7268 21.8372 20.1736 21.6752 19.6554C21.3322 18.618 21.1579 17.5295 21.1579 16.4211C21.1579 15.6376 20.5203 15 19.7369 15H16.4211C15.6376 15 15 15.6376 15 16.4211C15 25.5622 22.4378 33 31.5789 33C32.3624 33 33 32.3624 33 31.5789V28.2726C33 27.4892 32.3624 26.8516 31.5789 26.8516Z"
+                                fill="#0099FF" />
+                        </svg>
+
+
+                        +38 (050) 835-51-21
+                    </a>
                 </div>
             </div>
-            <div class="phone"><a href="tel:+38 (050) 835-51-21">
-                +38 (050) 835-51-21</a>
-            </div>
-        </div>
 
-        <div class="burger">
-            меню
-            <div class="burger-icon  nav-icon-5">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="burger">
+                меню
+                <div class="burger-icon  nav-icon-5">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-        </div>
-            
+            <div class="menu_block ">
+                <div class="container">
+                    <div class="top_row">
+                        <div class="logo">
+                            <a href="" class="logo_img">
+                                <img src="products/logo_white.png " alt="">
+                            </a>
+
+
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <div class="left_col">
+                            <div class="item_menu">
+                                <div class="item_wrapper">
+                                    <a href="">Главная</a>
+                                </div>
+
+                            </div>
+                            <div class="item_menu">
+                                <div class="item_wrapper">
+                                    <a href="">О нас</a>
+                                </div>
+
+                            </div>
+                            <div class="item_menu">
+                                <div class="item_wrapper">
+                                    <a href="">Услуги </a>
+                                    <div class="open_submenu "> <span class="plus">+</span> <span class="minus">-</span>
+                                    </div>
+                                </div>
+
+                                <div class="submenu ">
+                                    <a href="">Создание сайтов</a>
+                                    <a href="">SEO продвижение</a>
+                                    <a href="">Контекстная реклама</a>
+                                    <a href="">SMM продвижение</a>
+                                </div>
+                            </div>
+                            <div class="item_menu">
+                                <div class="item_wrapper">
+                                    <a href=""> Портфолио </a>
+                                    <div class="open_submenu "> <span class="plus">+</span> <span class="minus">-</span>
+                                    </div>
+                                </div>
+                                <div class="submenu ">
+                                    <a href="">Создание сайтов</a>
+                                    <a href="">SEO продвижение</a>
+                                    <a href="">Контекстная реклама</a>
+                                    <a href="">SMM продвижение</a>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="right_col">
+
+                            <div class="item_menu">
+                                <div class="item_wrapper">
+                                    <a href=""> Отзывы </a>
+                                </div>
+
+                            </div>
+                            <div class="item_menu">
+                                <div class="item_wrapper">
+                                    <a href=""> Вакансии </a>
+                                </div>
+
+                            </div>
+                            <div class="item_menu">
+                                <div class="item_wrapper">
+                                    <a href=""> Новости </a>
+                                </div>
+
+                            </div>
+
+                            <div class="item_menu">
+                                <div class="item_wrapper">
+                                    <a href=""> Контакты </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bottom_row">
+                        <div class="copiright">
+                            MNOGOSLOV © 2016 - 2021
+                        </div>
+                        <a href="tel:+38 (050) 835-51-21" class="phone">
+                            +38 (050) 835-51-21</a>
+                    </div>
+
+                </div>
+
+
+            </div>
         </header>
     </div>
-   
+    <section class="seo_main">
 
+        <div class="container">
+            <div class="left_main">
+                <div class="title">
+                    <span class="bold_txt">Комплексное <br>
+                        SEO-продвижение</span><br>
+
+                    Вашего сайта
+                </div>
+                <div class="subtitle">
+                    Разрабатываем продающие и эффективные сайты <span class="bold_txt">с абсолютно <br>эксклюзивным
+                        профессионально
+                        проработанным дизайном</span>
+
+                </div>
+                <a href="" class="button_call">Обсудить мой проект</a>
+            </div>
+            <div class="right_main" id="seo_main" data-relative-input="true">
+
+                <img src="products/seo_main.png" alt="">
+                <div data-depth="0.2" class="item1"><img src="products/seo_par.png" alt=""></div>
+                <div data-depth="0.3" class="item2"><img src="products/seo_par2.png" alt=""></div>
+                <div data-depth="0.5" class="item3"><img src="products/seo_par3.png" alt=""></div>
+
+                <!-- <img src="products/seo_main.png" alt=""> -->
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="seo_clients">
+        <div class="container">
+            <div class="sign">
+                <div>Наши результаты</div>
+
+            </div>
+            <div class="title">
+                Довольные клиенты
+            </div>
+
+            <div class="swiper swiper_reviews">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="slide-img">
+                            <img src="products/review1.png" alt="">
+                        </div>
+                        <div class="slide_info">
+                            <div>
+                                Цифровая типография полного цикла
+                            </div>
+                            <div class="name">
+                                колибри
+                            </div>
+                            <div class="slide_title">
+                                Задача:
+                            </div>
+                            <div class="">
+                                Поднять в ТОП-10 50% запросов из семантического ядра
+                            </div>
+                            <div class="slide_title">
+                                Решение:
+                            </div>
+                            <ul>
+                                <li>
+                                    Собрали семантическое ядро, выделили ключевые слова и запросы.
+
+                                </li>
+                                <li>
+                                    Сайт продвигается по семантическому ядру.
+                                </li>
+                                <li>
+                                    Корректировка мета-тегов и текстов на страницах для улучшения видимости
+                                    по запросам.
+                                </li>
+                            </ul>
+
+                            <div class="slide_title">
+                                Результат:
+                            </div>
+                            <ul>
+                                <li>Наращивание ссылочной массы статейными ссылками.
+                                </li>
+                                <li>Помещены отзывы на Гугл картах.
+                                </li>
+                                <li>
+                                    Размещены отзывы на 2GIS.
+                                </li>
+                            </ul>
+                            <div class="button_row">
+                                <a href="" class="more_btn">Расширенный кейс</a>
+                                <a href="" class="button_call">Хочу такой результат</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-img">
+                            <img src="products/review1.png" alt="">
+                        </div>
+                        <div class="slide_info">
+                            <div>
+                                Цифровая типография полного цикла3
+                            </div>
+                            <div class="name">
+                                колибри
+                            </div>
+                            <div class="slide_title">
+                                Задача:
+                            </div>
+                            <div class="">
+                                Поднять в ТОП-10 50% запросов из семантического ядра
+                            </div>
+                            <div class="slide_title">
+                                Решение:
+                            </div>
+                            <ul>
+                                <li>
+                                    Собрали семантическое ядро, выделили ключевые слова и запросы.
+
+                                </li>
+                                <li>
+                                    Сайт продвигается по семантическому ядру.
+                                </li>
+                                <li>
+                                    Корректировка мета-тегов и текстов на страницах для улучшения видимости
+                                    по запросам.
+                                </li>
+                            </ul>
+
+                            <div class="slide_title">
+                                Результат:
+                            </div>
+                            <ul>
+                                <li>Наращивание ссылочной массы статейными ссылками.
+                                </li>
+                                <li>Помещены отзывы на Гугл картах.
+                                </li>
+                                <li>
+                                    Размещены отзывы на 2GIS.
+                                </li>
+                            </ul>
+                            <div class="button_row">
+                                <a href="" class="more_btn">Расширенный кейс</a>
+                                <a href="" class="button_call">Хочу такой результат</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-img">
+                            <img src="products/review1.png" alt="">
+                        </div>
+                        <div class="slide_info">
+                            <!-- <div>
+                                Цифровая типография полного цикла2
+                            </div>
+                            <div class="name">
+                                колибри
+                            </div>
+                            <div class="slide_title">
+                                Задача:
+                            </div>
+                            <div class="">
+                                Поднять в ТОП-10 50% запросов из семантического ядра
+                            </div>
+                            <div class="slide_title">
+                                Решение:
+                            </div>
+                            <ul>
+                                <li>
+                                    Собрали семантическое ядро, выделили ключевые слова и запросы.
+
+                                </li>
+                                <li>
+                                    Сайт продвигается по семантическому ядру.
+                                </li>
+                                <li>
+                                    Корректировка мета-тегов и текстов на страницах для улучшения видимости
+                                    по запросам.
+                                </li>
+                            </ul> -->
+
+                            <div class="slide_title">
+                                Результат:
+                            </div>
+                            <ul>
+                                <li>Наращивание ссылочной массы статейными ссылками.
+                                </li>
+                                <li>Помещены отзывы на Гугл картах.
+                                </li>
+                                <li>
+                                    Размещены отзывы на 2GIS.
+                                </li>
+                            </ul>
+                            <div class="button_row">
+                                <a href="" class="more_btn">Расширенный кейс</a>
+                                <a href="" class="button_call">Хочу такой результат</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+                <div class="swiper-button-prev">
+                    <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.43196 7.62555C2.23281 7.82964 2.12094 8.10641 2.12094 8.395C2.12094 8.68359 2.23281 8.96036 2.43196 9.16446L7.30255 14.1556C7.49606 14.3608 7.60313 14.6358 7.60071 14.9211C7.59829 15.2065 7.48657 15.4794 7.28961 15.6812C7.09266 15.883 6.82622 15.9975 6.54769 16C6.26916 16.0024 6.00083 15.8927 5.80048 15.6945L0.933073 10.7034C0.335627 10.0911 1.17833e-06 9.26077 1.3297e-06 8.395C1.48108e-06 7.52923 0.335628 6.69891 0.933073 6.08663L5.80473 1.09551C6.00508 0.897262 6.27342 0.787564 6.55194 0.790043C6.83047 0.792523 7.09691 0.906983 7.29387 1.10877C7.49082 1.31056 7.60254 1.58353 7.60496 1.86889C7.60738 2.15424 7.50031 2.42916 7.30681 2.63442L2.43196 7.62555Z"
+                            fill="white" />
+                    </svg>
+
+
+
+                </div>
+
+                <div class="swiper-button-next">
+                    <svg width="8" height="16" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M5.56804 8.37445C5.76719 8.17036 5.87906 7.89359 5.87906 7.605C5.87906 7.31641 5.76719 7.03964 5.56804 6.83554L0.697445 1.84442C0.503941 1.63916 0.396868 1.36424 0.399289 1.07888C0.401709 0.793523 0.513429 0.520554 0.710386 0.318767C0.907343 0.116981 1.17378 0.00252083 1.45231 4.11419e-05C1.73084 -0.00243855 1.99917 0.10726 2.19952 0.30551L7.06693 5.29663C7.66437 5.90891 8 6.73923 8 7.605C8 8.47077 7.66437 9.30109 7.06693 9.91337L2.19527 14.9045C1.99492 15.1027 1.72659 15.2124 1.44806 15.21C1.16953 15.2075 0.903093 15.093 0.706136 14.8912C0.50918 14.6894 0.39746 14.4165 0.39504 14.1311C0.392619 13.8458 0.499692 13.5708 0.693196 13.3656L5.56804 8.37445Z"
+                            fill="white" />
+                    </svg>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="seo_stages">
+        <div class="container">
+            <div class="title">
+                Наша задача - <span class="bold_txt">
+                    обеспечить Вашему сайту <br>
+                    постоянный поток клиентов
+                </span>
+            </div>
+
+            <div class="stages_block">
+                <div class="stages_item">
+                    <div class="number">01</div>
+                    <div class="stage_title">
+                        Оформление договора
+                    </div>
+                    <ul>
+                        <li>Заключаем договор о сотрудничестве</li>
+                        <li>Фиксируем в договоре все виды выполняемых работ </li>
+                        <li>Соблюдаем конфиденциальность </li>
+                    </ul>
+                </div>
+                <div class="stages_item">
+                    <div class="number">02</div>
+                    <div class="stage_title">
+                        Ежедневная отчётность
+                    </div>
+                    <ul>
+                        <li>Показываемтчеты по посещаемости сайта на ежемесячной основе</li>
+                        <li>Показываем анализ конверсии </li>
+                        <li>Предоставляем развёрнутый план по дальнейшему продвижению </li>
+                    </ul>
+                </div>
+                <div class="stages_item">
+                    <div class="number">03</div>
+                    <div class="stage_title">
+                        Сопровождение проекта
+                    </div>
+                    <ul>
+                        <li>Разрабатываем эффективную SEO-стратегию для Вашего бизнеса
+                        </li>
+                        <li>Работаем над оптимизацией юзабилити сайта и контента
+                        </li>
+                        <li>Оперативно реагируем на правки </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="seo_methods">
+        <div class="container">
+            <div class="sign">О методах работы</div>
+            <div class="title"><span class="bold_txt">Почувствуй</span> разницу</div>
+            <div class="compared_block">
+                <div class="compared_spec">
+                    <div class="title_block">
+                        Наши специалисты
+                    </div>
+                    <div class="compered_description">
+                        <div class="left_part">
+                            <div class="part_title">
+                                Плюсы
+                            </div>
+                            <ul>
+                                <li><span class="bold_txt">Грамотный</span>  просчёт бюджета
+                                </li>
+                                <li><span class="bold_txt">Оптимальная</span> цена клика
+                                </li>
+                                <li><span class="bold_txt">Уникальные</span> объявления
+                                </li>
+                                <li><span class="bold_txt">Проработка</span> минус-слов
+                                </li>
+                                <li><span class="bold_txt">Ручная</span> настройка</li>
+                            </ul>
+                        </div>
+                        <div class="right_part">
+                            <div class="part_title">
+                                Минусы
+                            </div>
+                            <ul>
+                                <li>У нас <span class="bold_txt">их нет</span></li>
+                            </ul>
+                            <!-- <img src="products/minus_img.png" alt=""> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="compared_freelans">
+                    <div class="title_block">
+                        Фрилансеры и биржи
+                    </div>
+                    <div class="compered_description">
+                        <div class="left_part">
+                            <div class="part_title">
+                                Плюсы
+                            </div>
+                            <ul>
+                                <li><span class="bold_txt">Быстрый</span> запуск РК
+
+                                </li>
+                                <li> <span class="bold_txt">Много</span> обещаний
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="right_part">
+                            <div class="part_title">
+                                Минусы
+                            </div>
+                            <ul>
+                                <li>Просчет бюджета <span class="bold_txt">"вслепую"</span>
+                                </li>
+                                <li> <span class="bold_txt">Шаблонные</span> объявления
+                                </li>
+                                <li><span class="bold_txt">Нет</span> аналитики
+                                </li>
+                                <li>Нет <span class="bold_txt">индивидуальных</span> решений</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script type="text/javascript">
+        // 8 экран
+        var swiper_reviews = new Swiper(".swiper_reviews", {
+            spaceBetween: 30,
+            effect: "fade",
+            speed: 900,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 9000,
+            },
+        });
+    </script>
 </body>
 
 </html>
