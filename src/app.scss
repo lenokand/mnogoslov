@@ -441,6 +441,10 @@ header {
   }
 }
 
+.blue_txt {
+  color: #00AAEF;
+}
+
 .bold_txt {
   font-weight: bold;
 }
@@ -800,7 +804,8 @@ li {
 }
 
 .seo_methods {
-  margin-bottom: 37px;
+  margin-bottom: 140px;
+
   .sign {
     font-family: TT Norms Pro;
     font-style: normal;
@@ -847,21 +852,27 @@ li {
         background-position: bottom right;
       }
     }
-    .compared_freelans{
+
+    .compared_freelans {
       .compered_description {
-        >div{
+        >div {
           background: #F8F8FA;
           display: flex;
           flex-direction: column;
-          .part_title{
+
+          .part_title {
             color: #282828;
+            border: 1px solid #ECECF0;
+
           }
-          ul{
-            li{
+
+          ul {
+            li {
               color: #282828;
             }
-            ::marker{
-              color:#FCA04A;
+
+            ::marker {
+              color: #FCA04A;
             }
           }
         }
@@ -887,6 +898,7 @@ li {
       justify-content: space-between;
       align-items: stretch;
       min-height: 257px;
+
       >div {
         width: calc(50% - 15px);
         background: #0099FF;
@@ -931,6 +943,124 @@ li {
             font-size: 24px;
           }
         }
+      }
+    }
+  }
+}
+
+.seo_guarantee {
+  background-image: url(public/products/spec_fon.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-bottom: 100px;
+
+  .container {
+    display: flex;
+    align-items: flex-end;
+
+    .title {
+
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 124.7%;
+      /* or 45px */
+      margin-bottom: 30px;
+
+
+      color: #282828;
+    }
+
+    .subtitle {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 30px;
+      color: #282828;
+    }
+
+    .img_block {
+      width: 31%;
+      padding-left: 60px;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+
+    }
+
+    .img_block_info {
+      position: absolute;
+      bottom: 50px;
+      left: 32%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .name {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        /* or 156% */
+
+        text-align: center;
+
+        color: #FFFFFF;
+        background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
+        border-radius: 6px;
+        padding: 7px 15px;
+      }
+
+      .edge {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        /* or 200% */
+
+        text-align: center;
+
+        color: #282828;
+
+        background: #FFFFFF;
+        border-radius: 4px;
+        padding: 1px 12px;
+        
+      }
+    }
+
+    .guarantee_info {
+      padding-left: 40px;
+      width: 69%;
+      padding-bottom: 80px;
+      padding-right: 40px;
+    }
+
+    .guarantee_block {
+      display: flex;
+      justify-content: space-between;
+
+      .guarantee_block_item {
+        display: flex;
+        width: calc((100% - 48px)/3);
+
+      }
+
+      .check_circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(121.24deg, #0099FF 0%, #5ABBFF 99.99%, #5BBCFF 100%);
+        border-radius: 120%;
+        width: 50%;
+        max-width: 36px;
+        height: 36px;
+        flex-grow: 1;
+        margin-right: 18px;
       }
     }
   }
