@@ -231,3 +231,27 @@ var accordion = (function (element) {
 var accordion1 = accordion();
 accordion1.init('#accordion');
 
+
+
+// команда  смена описания под фото
+
+let imgList = document.querySelectorAll('.img_block_item img') 
+let signList= document.querySelectorAll('.info_block .img_sign') 
+
+if(imgList.length > 0 ){
+  
+  imgList.forEach( (item, index) => {
+    
+    item.addEventListener('click', function(){
+      console.log(signList[index]);
+      let active_sign = document.querySelector('.info_block .img_sign.active')
+      if(active_sign) {
+        active_sign.classList.remove("active")  
+      }
+      signList[index].classList.add("active")
+
+    })
+  }
+
+  )
+}
