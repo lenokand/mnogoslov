@@ -102,6 +102,11 @@
     .container {
       max-width: 90%;
     }
+    .progress{
+      .text{
+        font-size: 12px;
+      }
+    }
   }
 
 
@@ -517,7 +522,7 @@
 
         font-family: TT Norms Pro;
         font-style: normal;
-        font-weight: bold;
+        // font-weight: bold;
         font-size: toRem(60);
         line-height: toRem(72);
 
@@ -614,83 +619,85 @@ width: toRem(365);
 
     }
    
-
-
-    .swiper-slide {
-      display: flex;
-
-      .slide-img {
-        width: 50%;
-      }
-
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: normal;
-      font-size: toRem(16);
-      line-height: 160.7%;
-      /* identical to box height, or toRem(26) */
-
-
-      color: #282828;
-
-      .name {
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: 800;
-        font-size: toRem(30);
-        line-height: 118.7%;
-        /* identical to box height, or toRem(36) */
-
-        text-transform: uppercase;
-
-        color: #3EAFFF;
-        margin-top: 3px;
-        margin-bottom: toRem(21);
-      }
-
-      .slide_title {
-
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: bold;
-        font-size: toRem(18);
-        line-height: 118.7%;
-        /* or 21px */
-
-
-        color: #282828;
-        margin-bottom:toRem(9);
-
-      }
-
-      ul {
-        list-style-image: url('public/products/check.svg');
-        padding-left: 0;
-
-      }
-
-      li {
-
+    .swiper_reviews{
+      .swiper-slide {
+        display: flex;
+  
+        .slide-img {
+          width: 50%;
+        }
+  
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: normal;
         font-size: toRem(16);
-        line-height: toRem(24);
-        /* or 150% */
-
-
+        line-height: 160.7%;
+        /* identical to box height, or toRem(26) */
+  
+  
         color: #282828;
-
-      }
-
-      .button_row {
-        display: flex;
-
-        .more_btn {
-          margin-right:toRem(14);
+  
+        .name {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: 800;
+          font-size: toRem(30);
+          line-height: 118.7%;
+          /* identical to box height, or toRem(36) */
+  
+          text-transform: uppercase;
+  
+          color: #3EAFFF;
+          margin-top: 3px;
+          margin-bottom: toRem(21);
+        }
+  
+        .slide_title {
+  
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: toRem(18);
+          line-height: 118.7%;
+          /* or 21px */
+  
+  
+          color: #282828;
+          margin-bottom:toRem(9);
+  
+        }
+  
+        ul {
+          list-style-image: url('public/products/check.svg');
+          padding-left: 0;
+  
+        }
+  
+        li {
+  
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: normal;
+          font-size: toRem(16);
+          line-height: toRem(24);
+          /* or 150% */
+  
+  
+          color: #282828;
+  
+        }
+  
+        .button_row {
+          display: flex;
+  
+          .more_btn {
+            margin-right:toRem(14);
+          }
         }
       }
     }
+
+   
 
     .title {
       font-family: TT Norms Pro;
@@ -1138,7 +1145,7 @@ width: toRem(365);
 
           background: #FFFFFF;
           border-radius: 4px;
-          padding: 1pxtoRem(12);
+          padding: 1px toRem(12);
 
         }
       }
@@ -1813,7 +1820,7 @@ line-height: toRem(30);
 
     .container {
       overflow: hidden;
-      max-width: 1434px;
+      // max-width: 1434px;
       padding: 0 toRem(15);
 
     }
@@ -1825,6 +1832,7 @@ line-height: toRem(30);
     .swiper-slide {
       img {
         margin-bottom: toRem(15);
+        width: 100%;
       }
 
       .sign {
@@ -2447,6 +2455,21 @@ transition: ease 300ms;
       color: #282828;
       margin-bottom: toRem(57);
     }
+    .subtitle{
+      font-family: TT Norms Pro;
+font-style: normal;
+// font-weight: bold;
+font-size: toRem(30);
+line-height: 160%;
+/* identical to box height, or 160% */
+
+text-align: center;
+
+/* black */
+
+color: #282828;
+
+    }
 
     .container {
       // max-width: none;
@@ -2651,7 +2674,28 @@ transition: ease 300ms;
      min-width: 120px;
      padding-right: 30px;
    }
-
+   section.progress{
+     margin-bottom: 10px;
+     .subtitle{
+       font-size: 16px;
+     }
+     .title{
+       font-size: 26px;
+       margin-bottom: 30px;
+     }
+     .progress_block .progress_item{
+       width: calc(50% - 15px);
+       margin-bottom: 30px;
+       .number{
+         font-size: 23px;
+         margin-bottom: 10px;
+       }
+       .block_title{
+         font-size: 23px;
+         margin-bottom: 10px;
+       }
+     }
+   }
    .callback{
      margin-bottom: 40px;
     .subtitle{
@@ -2818,6 +2862,31 @@ transition: ease 300ms;
        margin-bottom: 30px;
      }
    }
+   section.case{
+     margin-bottom: 40px;
+    .title{
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
+   } 
+   section.case .swiper-slide{
+    min-height: 500px;
+    .name{
+      font-size: 19px;
+      line-height: 20px;
+    } 
+    .profile{
+      font-size: 14px;
+      line-height: 20px;
+     }
+     .big_number{
+      font-size: 23px;
+      line-height: 28px;
+     }
+.text{
+  font-size: 19px;
+}
+   } 
 
    .gallery-second .container .swiper-slide{
     flex-direction: column-reverse;
@@ -2897,6 +2966,15 @@ transition: ease 300ms;
       align-items: center;
       justify-content: center;
     }
+  }
+  .gallery-second .container .swiper-slide{
+    flex-direction: column-reverse;
+  }
+  .gallery-second .container .swiper-slide .sign{
+    margin-top: 0;
+  }
+  .gallery-third .container .swiper-slide .sign{
+    margin-top: 0;
   }
    .gallery-third .container .swiper-slide{
     flex-direction: column-reverse;
@@ -2998,7 +3076,7 @@ transition: ease 300ms;
      margin: auto;
      margin-bottom: 10px;
    }
-   .seo_guarantee{
+   .seo_guarantee, .smm_guarantee{
      margin-bottom: 40px;
      background-size: cover;
      padding-top: 25px;
@@ -3029,6 +3107,7 @@ transition: ease 300ms;
           left: 10%;
           .name{
             font-size: 14px;
+            min-width: 150px;
           }
           .edge{
             font-size: 12px;
@@ -3037,9 +3116,11 @@ transition: ease 300ms;
       }
     }
    }
+   .smm_guarantee .container .title,
    .seo_guarantee .container .title{
      font-size: 26px;
    }
+   .smm_guarantee .container .guarantee_info,
    .seo_guarantee .container .guarantee_info{
      padding-bottom: 10px;
      width: 100%;
@@ -3140,9 +3221,11 @@ transition: ease 300ms;
   .gallery .container .gallery_wrapper{
     width: 100%;
   }
+  .smm_guarantee .container .guarantee_block,
   .seo_guarantee .container .guarantee_block{
     flex-wrap: wrap;
   }
+  .smm_guarantee .container .guarantee_block .guarantee_block_item,
   .seo_guarantee .container .guarantee_block .guarantee_block_item{
     width: 100%;
     br{
@@ -3178,6 +3261,9 @@ transition: ease 300ms;
 
 
 @media screen and (max-width:500px) {
+  section.progress .progress_block .progress_item{
+    width: 100%;
+  }
   .seo_clients{
     
     .seo_clients .clients_block{
@@ -3223,4 +3309,342 @@ display: none;
   header .wrapper .logo{
     margin-bottom: 10px;
   }
+}
+
+.smm_main{
+  #seo_main{
+    .item3{
+      left: 0!important;
+      top: -15px!important;
+    }
+  }
+  
+}
+.case{
+  .container{
+    overflow: hidden;
+    padding-right: toRem(20);
+    padding-left: toRem(20);
+  }
+  .swiper{
+    overflow: visible;
+  }
+  .case_swiper{
+
+   
+  }
+
+  margin-bottom: toRem(75);
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sign {
+
+      background: linear-gradient(121.24deg, #118FE7 0%, #5BBCFF 100%);
+      border-radius: 6px;
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: 500;
+      font-size: toRem(18);
+      line-height: 118.7%;
+      /* or toRem(21) */
+
+      text-align: center;
+
+      color: #FFFFFF;
+      margin-bottom: toRem(15);
+      transform: skew(-15deg);
+      padding:toRem(7) toRem(15);
+
+      div {
+
+        transform: skew(15deg);
+      }
+
+    }
+    margin-bottom: toRem(75);
+
+    .subtitle {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: toRem(24);
+      line-height: toRem(48);
+      /* identical to box height, or 200% */
+
+      text-align: center;
+
+      /* black */
+
+      color: #282828;
+    }
+
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: toRem(48);
+      line-height: 124.7%;
+      /* identical to box height, or toRem(60) */
+
+      text-align: center;
+
+      color: #282828;
+      margin-bottom: toRem(60);
+    }
+
+   .swiper-slide{
+    padding: toRem(35);
+    border-radius: 8px;
+    min-height: toRem(740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // margin-right: 15px;
+    // margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+   
+    
+    justify-content: space-between;
+    .profile {
+      font-weight: 400;
+      font-size: toRem(16);
+      line-height: 160.7%;
+      color: #fff;
+  }
+  .name {
+    font-weight: 900;
+    font-size: toRem(30);
+    line-height: 160.7%;
+    color: #fff;
+}
+.bottom{
+  display: flex;
+    flex-direction: column;
+}
+.row_bottom {
+  display: flex;
+  flex-direction: column;
+}
+.big_number {
+  font-weight: 900;
+  font-size: toRem(60);
+  line-height: 124.7%;
+  color: #fff;
+}
+
+ .row_bottom .number,  .row_bottom .text {
+  font-weight: 700;
+  font-size: toRem(16);
+  line-height: 124.7%;
+  color: #fff;
+}
+   }
+}
+.seo_methods .compared_block .compared_spec .right_part{
+  background-image: url(public/products/smm_compear.png);
+}
+.smm_guarantee{
+  // background-image: url(public/products/spec_fon.png);
+  // background-repeat: no-repeat;
+  // background-position: bottom;
+  // background-size: cover;
+  // margin-bottom: toRem(100);
+
+  // .container {
+  //   display: flex;
+  //   align-items: flex-end;
+
+  //   .title {
+
+  //     font-family: TT Norms Pro;
+  //     font-style: normal;
+  //     font-weight: bold;
+  //     font-size: toRem(36);
+  //     line-height: 124.7%;
+  //     /* or toRem(45) */
+  //     margin-bottom: toRem(30);
+
+
+  //     color: #282828;
+  //   }
+
+  //   .subtitle {
+  //     font-family: TT Norms Pro;
+  //     font-style: normal;
+  //     font-size: toRem(24);
+  //     line-height: toRem(32);
+  //     margin-bottom: toRem(30);
+  //     color: #282828;
+  //   }
+
+  //   .img_block {
+  //     width: 31%;
+  //     padding-left: toRem(60);
+  //     position: relative;
+  //     display: flex;
+  //     align-items: flex-end;
+
+  //   }
+
+  //   .img_block_info {
+  //     position: absolute;
+  //     bottom: toRem(50);
+  //     left: 32%;
+  //     display: flex;
+  //     flex-direction: column;
+  //     align-items: center;
+
+  //     .name {
+  //       font-family: TT Norms Pro;
+  //       font-style: normal;
+  //       font-weight: 500;
+  //       font-size: toRem(18);
+  //       line-height: toRem(28);
+  //       /* or 156% */
+
+  //       text-align: center;
+
+  //       color: #FFFFFF;
+  //       background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
+  //       border-radius: 6px;
+  //       padding:toRem(7) toRem(15);
+  //     }
+
+  //     .edge {
+  //       font-family: TT Norms Pro;
+  //       font-style: normal;
+  //       font-weight: normal;
+  //       font-size:toRem(14);
+  //       line-height: toRem(28);
+  //       /* or 200% */
+
+  //       text-align: center;
+
+  //       color: #282828;
+
+  //       background: #FFFFFF;
+  //       border-radius: 4px;
+  //       padding: 1px toRem(12);
+
+  //     }
+  //   }
+
+  //   .guarantee_info {
+  //     padding-left: toRem(40);
+  //     width: 69%;
+  //     padding-bottom: toRem(80);
+  //     padding-right: toRem(40);
+  //   }
+
+  //   .guarantee_block {
+  //     display: flex;
+  //     justify-content: space-between;
+
+  //     .guarantee_block_item {
+  //       display: flex;
+  //       width: calc((100% - 3rem)/3);
+
+  //     }
+
+  //     .check_circle {
+  //       display: flex;
+  //       align-items: center;
+  //       justify-content: center;
+  //       background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
+  //       border-radius: 120%;
+  //       width: 50%;
+  //       max-width: toRem(36);
+  //       height: toRem(36);
+  //       flex-grow: 1;
+  //       margin-right: toRem(18);
+  //     }
+  //   }
+  // }
+
+}
+.smm_guarantee.seo_guarantee .container .guarantee_block .check_circle{
+  background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
+}
+
+.gallery.smm{
+  .title{
+    text-align: center;
+    margin-bottom: toRem(8);
+  }
+  .subtitle{
+    margin-bottom: toRem(58);
+  }
+}
+
+
+.progress{
+  margin-bottom: toRem(75);
+
+    .subtitle {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: toRem(24);
+      line-height: toRem(48);
+      /* identical to box height, or 200% */
+
+      text-align: center;
+
+      /* black */
+
+      color: #282828;
+    }
+
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      // font-weight: bold;
+      font-size: toRem(48);
+      line-height: 124.7%;
+      /* identical to box height, or toRem(60) */
+
+      text-align: center;
+
+      color: #282828;
+      margin-bottom: toRem(60);
+    }
+    .progress_block{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .progress_item{
+        width: calc((100% - 3.75rem)/3);
+        margin-bottom: toRem(60);
+        .number{
+          font-family: TT Norms Pro;
+font-style: normal;
+font-weight: 800;
+font-size: toRem(36);
+line-height: toRem(22);
+color: #0099FF;
+margin-bottom: toRem(30);
+        }
+        .block_title{
+          font-family: TT Norms Pro;
+font-style: normal;
+font-weight: bold;
+font-size: toRem(24);
+line-height: toRem(22);
+/* identical to box height, or 92% */
+
+
+/* 4 */
+
+color: #282828;
+margin-bottom: toRem(24);
+        }
+
+      }
+    }
 }
