@@ -243,7 +243,7 @@ if(imgList.length > 0 ){
   imgList.forEach( (item, index) => {
     
     item.addEventListener('click', function(){
-      console.log(signList[index]);
+      // console.log(signList[index]);
       let active_sign = document.querySelector('.info_block .img_sign.active')
       if(active_sign) {
         active_sign.classList.remove("active")  
