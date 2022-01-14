@@ -103,7 +103,9 @@
       max-width: 90%;
     }
 
-    .progress, .stages, .our-garantee {
+    .progress,
+    .stages,
+    .our-garantee {
       .text {
         font-size: 12px;
       }
@@ -1191,7 +1193,7 @@
     }
   }
 
-  .seo_quiz {
+  .quiz {
     margin-bottom: toRem(70);
 
     .title {
@@ -1641,7 +1643,7 @@
       margin-right: toRem(-15);
       margin-left: toRem(-15);
       flex-wrap: wrap;
-
+      width: 100%;
       .clients_block_item {
         margin-right: toRem(15);
         margin-left: toRem(15);
@@ -2626,12 +2628,15 @@
     header {
       align-items: flex-start;
     }
-    .menu_block .bottom_row .copiright{
+
+    .menu_block .bottom_row .copiright {
       font-size: 12px;
     }
-    .menu_block .bottom_row .phone{
+
+    .menu_block .bottom_row .phone {
       font-size: 16px;
     }
+
     header .wrapper {
       flex-direction: column;
 
@@ -2649,36 +2654,78 @@
       padding-top: 30px;
       margin-bottom: 45px;
     }
+
+    section.gallery.context .subtitle{
+      margin-bottom: 40px;
+      font-size: 20px;
+      line-height: 23px;
+    } 
+    section.gallery.context .title{
+      font-size: 26px;
+      margin-bottom: 2px;
+    }
+
+    section.certified_partn {
+      margin-bottom: 40px;
+  
+     .container {
+   
+        font-size: 19px;
+        line-height: 118.7%;
+        padding-right: 10px;
+        // height: toRem(126);
+        height: 70px;
+        
+      // flex-direction: column-reverse;
+  
+        .trumpet {
+          height: 100%;
+          // width: 50px;
+        }
+  
+        .certif {
+          width: 17%;
+        }
+  
+      }
+    }
+
+
     section.our-garantee .progress_block .progress_item .block_title,
-    section.stages .progress_block .progress_item .block_title{
+    section.stages .progress_block .progress_item .block_title {
       font-size: 23px;
       margin-bottom: 10px;
     }
+
     section.our-garantee .progress_block .progress_item .number,
-    section.stages .progress_block .progress_item .number{
+    section.stages .progress_block .progress_item .number {
       font-size: 23px;
       margin-bottom: 10px;
     }
+
     section.our-garantee .progress_block .progress_item,
-    section.stages .progress_block .progress_item{
+    section.stages .progress_block .progress_item {
       margin-bottom: 30px;
     }
+
     section.our-garantee .progress_block {
       flex-wrap: wrap;
     }
-    section.our-garantee .progress_block .progress_item{
-      width: calc(50% - 0.938rem) ;
+
+    section.our-garantee .progress_block .progress_item {
+      width: calc(50% - 0.938rem);
     }
-    section.our-garantee ,
+
+    section.our-garantee,
     section.stages {
-      .name{
-      
-      }
-      .title{
+      .name {}
+
+      .title {
         font-size: 26px;
         margin-bottom: 30px;
       }
     }
+
     header .phone a {
       font-size: 19px;
       line-height: 21px;
@@ -3204,7 +3251,7 @@
       }
     }
 
-    .seo_quiz {
+    .quiz {
       margin-bottom: 40px;
 
       .title {
@@ -3238,7 +3285,7 @@
       }
     }
 
-    .seo_quiz .last_screen input {
+    .quiz .last_screen input {
       display: flex;
       margin: auto;
       margin-bottom: 10px;
@@ -3408,9 +3455,11 @@
     .menu_block .menu {
       flex-direction: column;
     }
-    .block_clients .swiper_reviews .swiper-slide .button_row .more_btn{
+
+    .block_clients .swiper_reviews .swiper-slide .button_row .more_btn {
       margin-right: 0;
     }
+
     .team .img_block {
       height: 250px;
     }
@@ -3476,57 +3525,72 @@
 
   @media screen and (max-width:500px) {
     .block_clients .clients_block {
-      margin-right:0;
+      margin-right: 0;
       margin-left: 0;
 
     }
-    section.our-garantee .progress_block .progress_item .number{
+   
+
+    section.our-garantee .progress_block .progress_item .number {
       display: flex;
-    align-items: center;
-    justify-content: center;
+      align-items: center;
+      justify-content: center;
     }
-    .block_clients .container{
+
+    .block_clients .container {
       padding-left: 10px;
       padding-right: 10px;
     }
-    .callback form input{
+
+    .callback form input {
       margin-right: 0;
     }
-    .direction .direction_block_item{
+
+    .direction .direction_block_item {
       margin-right: 0;
       margin-left: 0;
 
     }
-    .callback form label input.custom-checkbox{
+
+    .callback form label input.custom-checkbox {
       width: 5px;
     }
-    footer .bottom_row{
+
+    footer .bottom_row {
       flex-direction: column;
     }
-    .seo_guarantee .container .guarantee_info{
+
+    .seo_guarantee .container .guarantee_info {
       padding-left: 0;
       padding-right: 0;
     }
-    .seo_quiz .container{
+
+    .quiz .container {
       padding-left: 5px;
       padding-right: 5px;
     }
+
     section.progress .progress_block .progress_item {
       width: 100%;
     }
-    .direction .direction_block .direction_block_item{
+
+    .direction .direction_block .direction_block_item {
       width: 100%;
     }
-    .callback form .button_wrapper{
+
+    .callback form .button_wrapper {
       width: 70%;
       min-width: auto;
-      .button_call{
+
+      .button_call {
         width: 100%;
       }
     }
-    .callback form .form_img{
+
+    .callback form .form_img {
       width: 42%;
     }
+
     .block_clients {
 
       .block_clients .clients_block {
@@ -3558,10 +3622,12 @@
     header .phone a svg {
       display: none;
     }
+
     section.our-garantee .progress_block .progress_item,
-    section.stages .progress_block .progress_item{
+    section.stages .progress_block .progress_item {
       width: 100%;
     }
+
     header .wrapper .logo {
       flex-direction: column;
       align-items: flex-start;
@@ -3598,7 +3664,7 @@
     }
 
   }
-  
+
   .case {
     .container {
       overflow: hidden;
@@ -3997,7 +4063,7 @@
 
   }
 
-  .our-garantee{
+  .our-garantee {
     .title {
       font-family: TT Norms Pro;
       font-style: normal;
@@ -4054,27 +4120,118 @@
 
   @media screen and (max-width: 420px) {
     .callback form {
-      input{
+      input {
         width: 100%;
       }
-      .button_wrapper{
+
+      .button_wrapper {
         width: 100%;
         min-width: auto;
-       
-        .button_call{
+
+        .button_call {
           width: 100%;
         }
-      } 
+      }
     }
-    
+
   }
 
-  .seo_methods .compared_block .compared_spec .right_part{
-    li img{
+  .seo_methods .compared_block .compared_spec .right_part {
+    li img {
       display: inline;
     }
   }
 
-  .seo_methods.cntx_methods .compared_block .compared_spec .right_part{
+  .seo_methods.cntx_methods .compared_block .compared_spec .right_part {
     background-image: url(public/products/cntx_compear.png);
+  }
+
+  .certified_partn {
+    margin-bottom: toRem(90);
+
+    .container {
+      background: url(public/products/certificate_bg.png) #0099FF;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 12px;
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: toRem(48);
+      line-height: 118.7%;
+      /* or 57px */
+
+
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      // padding: toRem(29) toRem(120) toRem(29) toRem(210);
+      padding-right: toRem(120);
+      height: toRem(126);
+
+      .trumpet {
+        height: 100%;
+      }
+
+      .certif {
+        width: 17%;
+      }
+
+    }
+  }
+
+
+  @media screen and (max-width:500px) {
+
+    section.certified_partn .container{
+      flex-direction: column-reverse;
+      height: auto;
+      padding-top: 10px;
+    }
+    section.certified_partn .container .trumpet{
+      // height: 20%;
+      width: 20%;
+    }
+    section.certified_partn .container .certif{
+      width: 40%;
+      margin-bottom: 10px;
+    }
+  }
+
+
+  .gallery.context{
+    .title{
+      font-family: TT Norms Pro;
+font-style: normal;
+font-weight: bold;
+font-size: toRem(48);
+line-height: 124.7%;
+/* identical to box height, or 60px */
+
+text-align: center;
+
+color: #282828;
+margin-bottom: toRem(8);
+
+    }
+    .subtitle{
+      font-family: TT Norms Pro;
+font-style: normal;
+// font-weight: bold;
+font-size: toRem(30);
+line-height: toRem(48);
+/* identical to box height, or 160% */
+
+text-align: center;
+
+/* black */
+
+color: #282828;
+margin-bottom: toRem(67);
+    }
+  }
+  
+  .stages.context .progress_block .progress_item .number{
+    color: #0099FF;
   }
