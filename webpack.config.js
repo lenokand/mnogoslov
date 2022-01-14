@@ -36,6 +36,11 @@ module.exports = {
             filename: 'smm.html',
             template: './src/html/smm.html',
             inject: 'body'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'context.html',
+            template: './src/html/context.html',
+            inject: 'body'
         })
     ],
     module: {

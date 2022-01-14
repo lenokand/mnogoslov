@@ -454,6 +454,9 @@
     //   // transition: ease 20s;
     // }
     z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     span {
       z-index: 2;
@@ -587,7 +590,7 @@
   }
 
 
-  .seo_clients {
+  .block_clients {
     margin-bottom: toRem(75);
 
     .container {
@@ -807,7 +810,9 @@
     padding: toRem(21) toRem(54);
     display: block;
     transition: ease 300ms;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     position: relative;
 
@@ -1599,7 +1604,7 @@
   }
 
 
-  .seo_clients {
+  .block_clients {
     margin-bottom: toRem(75);
 
     .subtitle {
@@ -2608,8 +2613,8 @@
 
   @media screen and (max-width: 1200px) {
 
-    .seo_clients .swiper-button-next,
-    .seo_clients .swiper-button-prev {
+    .block_clients .swiper-button-next,
+    .block_clients .swiper-button-prev {
       width: 40px;
       height: 40px;
     }
@@ -2717,18 +2722,18 @@
       overflow-y: auto;
     }
 
-    .seo_clients .title {
+    .block_clients .title {
       // font-weight: 700;
       font-size: 26px;
       line-height: 124.7%;
       margin-bottom: 30px;
     }
 
-    .seo_clients .swiper-slide {
+    .block_clients .swiper-slide {
       flex-direction: column;
     }
 
-    .seo_clients .swiper-slide .slide-img {
+    .block_clients .swiper-slide .slide-img {
       align-self: center;
     }
 
@@ -3182,7 +3187,7 @@
       font-size: 24px;
     }
 
-    .seo_clients {
+    .block_clients {
       margin-bottom: 40px;
 
       .title {
@@ -3387,7 +3392,7 @@
       }
     }
 
-    .seo_clients .swiper-slide .slide-img {
+    .block_clients .swiper-slide .slide-img {
       height: 150px;
       display: flex;
       align-items: center;
@@ -3403,7 +3408,9 @@
     .menu_block .menu {
       flex-direction: column;
     }
-
+    .block_clients .swiper_reviews .swiper-slide .button_row .more_btn{
+      margin-right: 0;
+    }
     .team .img_block {
       height: 250px;
     }
@@ -3434,7 +3441,7 @@
       margin-bottom: 5px;
     }
 
-    .seo_clients .swiper-slide {
+    .block_clients .swiper-slide {
       padding: 15px;
       padding-left: 30px;
 
@@ -3444,7 +3451,7 @@
 
     }
 
-    .seo_clients .swiper-slide .button_row .more_btn {
+    .block_clients .swiper-slide .button_row .more_btn {
       margin-right: 0;
       margin-bottom: 15px;
     }
@@ -3468,6 +3475,42 @@
 
 
   @media screen and (max-width:500px) {
+    .block_clients .clients_block {
+      margin-right:0;
+      margin-left: 0;
+
+    }
+    section.our-garantee .progress_block .progress_item .number{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .block_clients .container{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .callback form input{
+      margin-right: 0;
+    }
+    .direction .direction_block_item{
+      margin-right: 0;
+      margin-left: 0;
+
+    }
+    .callback form label input.custom-checkbox{
+      width: 5px;
+    }
+    footer .bottom_row{
+      flex-direction: column;
+    }
+    .seo_guarantee .container .guarantee_info{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .seo_quiz .container{
+      padding-left: 5px;
+      padding-right: 5px;
+    }
     section.progress .progress_block .progress_item {
       width: 100%;
     }
@@ -3484,9 +3527,9 @@
     .callback form .form_img{
       width: 42%;
     }
-    .seo_clients {
+    .block_clients {
 
-      .seo_clients .clients_block {
+      .block_clients .clients_block {
         margin-right: 0;
         margin-left: 0;
       }
@@ -4024,4 +4067,14 @@
       } 
     }
     
+  }
+
+  .seo_methods .compared_block .compared_spec .right_part{
+    li img{
+      display: inline;
+    }
+  }
+
+  .seo_methods.cntx_methods .compared_block .compared_spec .right_part{
+    background-image: url(public/products/cntx_compear.png);
   }
