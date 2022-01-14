@@ -41,6 +41,11 @@ module.exports = {
             filename: 'context.html',
             template: './src/html/context.html',
             inject: 'body'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'development.html',
+            template: './src/html/development.html',
+            inject: 'body'
         })
     ],
     module: {
