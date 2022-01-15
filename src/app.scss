@@ -2684,7 +2684,19 @@
         }
       }
     }
+    section.inner_main{
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-bottom: 40px;
+      .title{
+        font-size: 26px;
+        line-height: 27px;
 
+      }
+      .container{
+        min-height: 120px;
+      }
+    }
     section.gallery.context .subtitle {
       margin-bottom: 40px;
       font-size: 20px;
@@ -4977,4 +4989,202 @@
      
    
     }
+  }
+
+
+
+  .inner_main{
+    background-image: url(public/products/inner_main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: toRem(80);
+    padding-bottom: toRem(80);
+    margin-bottom: toRem(80);
+   
+    
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: toRem(230);
+    }
+    .title{
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: toRem(84);
+      line-height: toRem(101);
+      /* identical to box height */
+      
+      
+      color: #FFFFFF;
+    }
+    .breadcrumbs{
+      display: flex;
+      align-items: center;
+      .breadcrumb_item{
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: toRem(14);
+        line-height: toRem(17);
+        text-decoration-line: underline;
+
+        color: #FFFFFF;
+        &.breadcrumb_curent{
+          text-decoration: none;
+        }
+
+      } 
+      .splitter{
+        background:  rgba(255, 255, 255, 0.48);
+        width: 1px;
+        height: toRem(24);
+        margin-right: toRem(12);
+        margin-left: toRem(12);
+      }
+    }
+  }
+
+  .content{
+       h1{
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: (48);
+        line-height: toRem(58);
+        /* identical to box height */
+    
+    
+        color: #262626;     
+       } 
+       h2{
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: toRem(30);
+        line-height: toRem(36);
+        /* identical to box height */
+        
+        
+        color: #262626;
+        
+       }
+       h3{
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: toRem(24);
+        line-height: toRem(29);
+        /* identical to box height */
+        
+        
+        color: #262626;
+       }
+       img{
+        float: left;
+        margin: 0 toRem(30) 0 0; 
+        max-width: 100%;
+        border-radius: 6px;
+       }
+
+
+
+
+
+   
+    
+
+  }
+  table {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 6px;
+    border-collapse: collapse;
+    margin-top: toRem(60);
+    margin-bottom: toRem(60);
+  
+    tbody {
+        border-radius: 6px;
+        width: 100%;
+    }
+    tr{
+      border-bottom: 1px solid #EBEBEB;
+      &:last-child{
+        border: none ;
+      }
+    }
+    tr:first-child>td {
+        background: #5ABBFF;
+        padding: 25px 40px;
+
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 120.2%;
+        color: #FFFFFF;
+        &:first-child{
+          border-radius: 6px 0 0 0;
+        }
+        &:last-child{
+          border-radius:  0 6px 0 0;
+        }
+
+        &:hover {
+            background: #4B7FE3;
+        }
+    }
+
+    tr>td {
+        padding: 15px 40px 15px 40px;
+        background: #F8F8FA;
+
+
+        &:hover {
+            background: #ebf2ffc5;
+        }
+
+        &:first-child {
+            padding-top: 30px;
+        }
+
+        &:last-child {
+            padding-bottom: 30px;
+        }
+    }
+}
+
+  @media screen and (max-width: 900px) {
+    .content{
+      h1{
+        font-size: 24px;
+        line-height: 26px;
+      }
+      h2{
+        font-size: 22px;
+        line-height: 24px;
+
+      }
+      h3{
+        font-size: 20px;
+        line-height: 21px;
+
+      }
+
+      
+    }
+
+    table {
+      
+      overflow-x: scroll;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      display: block;
+      tbody{
+        width: 1000px;
+        display: block;
+      }
+    
+  }
+    
   }

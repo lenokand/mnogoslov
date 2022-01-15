@@ -46,6 +46,21 @@ module.exports = {
             filename: 'development.html',
             template: './src/html/development.html',
             inject: 'body'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'contentnaya.html',
+            template: './src/html/contentnaya.html',
+            inject: 'body'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'insta.html',
+            template: './src/html/insta.html',
+            inject: 'body'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'facebook.html',
+            template: './src/html/facebook.html',
+            inject: 'body'
         })
     ],
     module: {
