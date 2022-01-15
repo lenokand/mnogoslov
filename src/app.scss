@@ -5620,7 +5620,7 @@
 
 
   .map_section {
-    margin: toRem(100);
+    margin-bottom: toRem(100);
 
     .container {
       display: flex;
@@ -5913,11 +5913,61 @@
     }
 
     section.posts{
+      margin-bottom: 40px;
       .title{
-        font-size:26px
+        font-size: 26px;
+        margin-bottom: 30px;
+        
+
+      }
+       .posts_block .posts_item{
+        width: calc(25% - 10px);
       }
     } 
+    section.map_section{
+      margin-bottom: 40px;
+      .container{
+        flex-wrap: wrap;
+        .left_part {
+          width: 100%;
+          .title{
+            font-size: 26px;
+            margin-bottom: 30px;
+          }
+        }
+        .img_block{
+          width: 45px;
+          height: 45px;
+          svg{
+            width: 35%;
+          }
+        }
+        .map_left_row{
+          margin-bottom: 10px;
+        }
+        .name{
+          font-size: 18px;
+        }
+        .text, .text a{
+          font-size: 16px;
+        }
 
+        .map{
+          width: 100%;
+          margin-bottom: 15px;
+          height: 220px;
+        }
+        .right_part{
+          width: 100%;
+          padding: 10px;
+          padding-top: 0;
+          .top_img{
+            width: 30px;
+          }
+        }
+      }
+      
+    }
 
   }
 
