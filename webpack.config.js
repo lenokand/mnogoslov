@@ -61,6 +61,11 @@ module.exports = {
             filename: 'facebook.html',
             template: './src/html/facebook.html',
             inject: 'body'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'about.html',
+            template: './src/html/about.html',
+            inject: 'body'
         })
     ],
     module: {
