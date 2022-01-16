@@ -91,7 +91,18 @@ module.exports = {
             filename: 'portfolio.html',
             template: './src/html/portfolio.html',
             inject: 'body'
-        })
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'blog.html',
+            template: './src/html/blog.html',
+            inject: 'body'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'article.html',
+            template: './src/html/article.html',
+            inject: 'body'
+        }),
+
     ],
     module: {
         rules: [

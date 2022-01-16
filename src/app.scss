@@ -2614,6 +2614,2300 @@
   }
 
 
+
+  .smm_main {
+    #seo_main {
+      .item3 {
+        left: 0 !important;
+        top: -15px !important;
+      }
+    }
+
+  }
+
+  .case {
+    .container {
+      overflow: hidden;
+      padding-right: toRem(20);
+      padding-left: toRem(20);
+    }
+
+    .swiper {
+      overflow: visible;
+    }
+
+    .case_swiper {}
+
+    margin-bottom: toRem(75);
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .sign {
+
+      background: linear-gradient(121.24deg, #118FE7 0%, #5BBCFF 100%);
+      border-radius: 6px;
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: 500;
+      font-size: toRem(18);
+      line-height: 118.7%;
+      /* or toRem(21) */
+
+      text-align: center;
+
+      color: #FFFFFF;
+      margin-bottom: toRem(15);
+      transform: skew(-15deg);
+      padding: toRem(7) toRem(15);
+
+      div {
+
+        transform: skew(15deg);
+      }
+
+    }
+
+    margin-bottom: toRem(75);
+
+    .subtitle {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: toRem(24);
+      line-height: toRem(48);
+      /* identical to box height, or 200% */
+
+      text-align: center;
+
+      /* black */
+
+      color: #282828;
+    }
+
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: toRem(48);
+      line-height: 124.7%;
+      /* identical to box height, or toRem(60) */
+
+      text-align: center;
+
+      color: #282828;
+      margin-bottom: toRem(60);
+    }
+
+    .swiper-slide {
+      padding: toRem(35);
+      border-radius: 8px;
+      min-height: toRem(740);
+      background-repeat: no-repeat;
+      background-size: cover;
+      // margin-right: 15px;
+      // margin-left: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+
+
+      justify-content: space-between;
+
+      .profile {
+        font-weight: 400;
+        font-size: toRem(16);
+        line-height: 160.7%;
+        color: #fff;
+      }
+
+      .name {
+        font-weight: 900;
+        font-size: toRem(30);
+        line-height: 160.7%;
+        color: #fff;
+      }
+
+      .bottom {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .row_bottom {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .big_number {
+        font-weight: 900;
+        font-size: toRem(60);
+        line-height: 124.7%;
+        color: #fff;
+      }
+
+      .row_bottom .number,
+      .row_bottom .text {
+        font-weight: 700;
+        font-size: toRem(16);
+        line-height: 124.7%;
+        color: #fff;
+      }
+    }
+  }
+
+  .seo_methods .compared_block .compared_spec .right_part {
+    background-image: url(public/products/smm_compear.png);
+  }
+
+  .smm_guarantee {
+    // background-image: url(public/products/spec_fon.png);
+    // background-repeat: no-repeat;
+    // background-position: bottom;
+    // background-size: cover;
+    // margin-bottom: toRem(100);
+
+    // .container {
+    //   display: flex;
+    //   align-items: flex-end;
+
+    //   .title {
+
+    //     font-family: TT Norms Pro;
+    //     font-style: normal;
+    //     font-weight: bold;
+    //     font-size: toRem(36);
+    //     line-height: 124.7%;
+    //     /* or toRem(45) */
+    //     margin-bottom: toRem(30);
+
+
+    //     color: #282828;
+    //   }
+
+    //   .subtitle {
+    //     font-family: TT Norms Pro;
+    //     font-style: normal;
+    //     font-size: toRem(24);
+    //     line-height: toRem(32);
+    //     margin-bottom: toRem(30);
+    //     color: #282828;
+    //   }
+
+    //   .img_block {
+    //     width: 31%;
+    //     padding-left: toRem(60);
+    //     position: relative;
+    //     display: flex;
+    //     align-items: flex-end;
+
+    //   }
+
+    //   .img_block_info {
+    //     position: absolute;
+    //     bottom: toRem(50);
+    //     left: 32%;
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+
+    //     .name {
+    //       font-family: TT Norms Pro;
+    //       font-style: normal;
+    //       font-weight: 500;
+    //       font-size: toRem(18);
+    //       line-height: toRem(28);
+    //       /* or 156% */
+
+    //       text-align: center;
+
+    //       color: #FFFFFF;
+    //       background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
+    //       border-radius: 6px;
+    //       padding:toRem(7) toRem(15);
+    //     }
+
+    //     .edge {
+    //       font-family: TT Norms Pro;
+    //       font-style: normal;
+    //       font-weight: normal;
+    //       font-size:toRem(14);
+    //       line-height: toRem(28);
+    //       /* or 200% */
+
+    //       text-align: center;
+
+    //       color: #282828;
+
+    //       background: #FFFFFF;
+    //       border-radius: 4px;
+    //       padding: 1px toRem(12);
+
+    //     }
+    //   }
+
+    //   .guarantee_info {
+    //     padding-left: toRem(40);
+    //     width: 69%;
+    //     padding-bottom: toRem(80);
+    //     padding-right: toRem(40);
+    //   }
+
+    //   .guarantee_block {
+    //     display: flex;
+    //     justify-content: space-between;
+
+    //     .guarantee_block_item {
+    //       display: flex;
+    //       width: calc((100% - 3rem)/3);
+
+    //     }
+
+    //     .check_circle {
+    //       display: flex;
+    //       align-items: center;
+    //       justify-content: center;
+    //       background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
+    //       border-radius: 120%;
+    //       width: 50%;
+    //       max-width: toRem(36);
+    //       height: toRem(36);
+    //       flex-grow: 1;
+    //       margin-right: toRem(18);
+    //     }
+    //   }
+    // }
+
+  }
+
+  .smm_guarantee.seo_guarantee .container .guarantee_block .check_circle {
+    background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
+  }
+
+  .gallery.smm {
+    .title {
+      text-align: center;
+      margin-bottom: toRem(8);
+    }
+
+    .subtitle {
+      margin-bottom: toRem(58);
+    }
+  }
+
+
+  .progress {
+    margin-bottom: toRem(75);
+
+    .subtitle {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: toRem(24);
+      line-height: toRem(48);
+      /* identical to box height, or 200% */
+
+      text-align: center;
+
+      /* black */
+
+      color: #282828;
+    }
+
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      // font-weight: bold;
+      font-size: toRem(48);
+      line-height: 124.7%;
+      /* identical to box height, or toRem(60) */
+
+      text-align: center;
+
+      color: #282828;
+      margin-bottom: toRem(60);
+    }
+
+    .progress_block {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .progress_item {
+        width: calc((100% - 3.75rem)/3);
+        margin-bottom: toRem(60);
+
+        .number {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: 800;
+          font-size: toRem(36);
+          line-height: toRem(22);
+          color: #0099FF;
+          margin-bottom: toRem(30);
+        }
+
+        .block_title {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: toRem(24);
+          line-height: toRem(22);
+          /* identical to box height, or 92% */
+
+
+          /* 4 */
+
+          color: #282828;
+          margin-bottom: toRem(24);
+        }
+
+      }
+    }
+  }
+
+  .stages {
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      // font-weight: bold;
+      font-size: toRem(48);
+      line-height: 124.7%;
+      /* identical to box height, or toRem(60) */
+
+      text-align: center;
+
+      color: #282828;
+      margin-bottom: toRem(80);
+    }
+
+
+    .progress_block {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .progress_item {
+        width: calc(50% - 1.875rem);
+        margin-bottom: toRem(60);
+
+        .number {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: 800;
+          font-size: toRem(36);
+          line-height: toRem(22);
+          color: #EE6E54;
+          margin-bottom: toRem(30);
+        }
+
+        .block_title {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: toRem(24);
+          line-height: toRem(22);
+          /* identical to box height, or 92% */
+
+
+          /* 4 */
+
+          color: #282828;
+          margin-bottom: toRem(24);
+        }
+
+      }
+    }
+
+  }
+
+  .our-garantee {
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      // font-weight: bold;
+      font-size: toRem(48);
+      line-height: 124.7%;
+      /* identical to box height, or toRem(60) */
+
+      text-align: center;
+
+      color: #282828;
+      margin-bottom: toRem(80);
+    }
+
+
+    .progress_block {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .progress_item {
+        width: calc((100% - 5.625rem)/4);
+        margin-bottom: toRem(60);
+
+        .number {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: 800;
+          font-size: toRem(36);
+          line-height: toRem(22);
+          color: #EE6E54;
+          margin-bottom: toRem(30);
+        }
+
+        .block_title {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: toRem(24);
+          line-height: toRem(22);
+          /* identical to box height, or 92% */
+
+
+          /* 4 */
+
+          color: #282828;
+          margin-bottom: toRem(24);
+        }
+
+      }
+    }
+  }
+
+
+  .seo_methods .compared_block .compared_spec .right_part {
+    li img {
+      display: inline;
+    }
+  }
+
+  .seo_methods.cntx_methods .compared_block .compared_spec .right_part {
+    background-image: url(public/products/cntx_compear.png);
+  }
+
+  .certified_partn {
+    margin-bottom: toRem(90);
+
+    .container {
+      background: url(public/products/certificate_bg.png) #0099FF;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 12px;
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: toRem(48);
+      line-height: 118.7%;
+      /* or 57px */
+
+
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      // padding: toRem(29) toRem(120) toRem(29) toRem(210);
+      padding-right: toRem(120);
+      height: toRem(126);
+
+      .trumpet {
+        height: 100%;
+      }
+
+      .certif {
+        width: 17%;
+      }
+
+    }
+  }
+
+
+
+  .gallery.context {
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: toRem(48);
+      line-height: 124.7%;
+      /* identical to box height, or 60px */
+
+      text-align: center;
+
+      color: #282828;
+      margin-bottom: toRem(8);
+
+    }
+
+    .subtitle {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      // font-weight: bold;
+      font-size: toRem(30);
+      line-height: toRem(48);
+      /* identical to box height, or 160% */
+
+      text-align: center;
+
+      /* black */
+
+      color: #282828;
+      margin-bottom: toRem(67);
+    }
+  }
+
+  .stages.context .progress_block .progress_item .number {
+    color: #0099FF;
+  }
+
+
+  .last_work {
+    margin-bottom: toRem(80);
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: toRem(48);
+      line-height: 124.7%;
+      /* identical to box height, or 60px */
+
+      text-align: center;
+
+      color: #282828;
+      margin-bottom: toRem(70);
+    }
+
+
+    .sign {
+
+      background: linear-gradient(121.24deg, #118FE7 0%, #5BBCFF 100%);
+      border-radius: 6px;
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: 500;
+      font-size: toRem(18);
+      line-height: 118.7%;
+      /* or toRem(21) */
+
+      text-align: center;
+
+      color: #FFFFFF;
+      margin-bottom: toRem(15);
+      transform: skew(-15deg);
+      padding: toRem(7) toRem(15);
+
+      div {
+
+        transform: skew(15deg);
+      }
+
+    }
+
+
+    .work_block {
+      width: 100%;
+      // height: toRem(750);
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .work_block_col {
+        width: calc(50% - 0.938rem);
+        height: 100%;
+        height: toRem(750);
+        margin-bottom: toRem(30);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        grid-gap: toRem(30);
+
+        &:nth-child(odd) {
+          .work_item {
+            &:nth-child(3n+1) {
+              grid-area: 1 / 1 / 3 / 3;
+
+            }
+
+            // &:first-child {
+            //   grid-area: 1 / 1 / 3 / 3;
+            // }
+
+            &:nth-child(2n) {
+              grid-area: 3 / 1 / 4 / 2;
+            }
+
+            &:nth-child(3n) {
+              grid-area: 3 / 2 / 4 / 3;
+            }
+
+          }
+        }
+
+        &:nth-child(even) {
+          .work_item {
+            &:first-child {
+              grid-area: 1 / 1 / 2 / 2;
+            }
+
+            &:nth-child(2) {
+              grid-area: 1 / 2 / 2 / 3;
+            }
+
+            &:last-child {
+
+
+
+              grid-area: 2 / 1 / 4 / 3;
+            }
+
+          }
+        }
+
+        .work_item {
+          // margin-bottom: toRem(30);     
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 8px;
+          padding: toRem(20) toRem(35);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          position: relative;
+          overflow: hidden;
+
+          .img_hidden {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            transform: translateY(100%);
+            transition: 200ms ease;
+          }
+
+
+
+
+
+
+
+
+
+          .work_name {
+            font-family: TT Norms Pro;
+            font-style: normal;
+            font-weight: bold;
+            font-size: toRem(21);
+            line-height: toRem(24);
+            /* identical to box height, or 229% */
+
+
+            color: #FFFFFF;
+            margin-bottom: toRem(3);
+          }
+
+          .work_sign {
+            font-family: TT Norms Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: toRem(16);
+            line-height: toRem(24);
+            /* identical to box height, or 300% */
+
+
+            color: #FFFFFF;
+          }
+
+          .hidden_link {
+            opacity: 0;
+            font-family: TT Norms Pro;
+            font-style: normal;
+            font-weight: bold;
+            font-size: toRem(16);
+            line-height: toRem(24);
+            /* or 300% */
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1;
+            color: #FFFFFF;
+            transition: ease 300ms;
+
+            svg {
+              fill: #fff;
+            }
+          }
+
+          &:hover {
+            .hidden_link {
+              opacity: 1;
+            }
+
+            .img_hidden {
+              transform: translateY(0);
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .seo_methods.dev {
+
+    .compared_block .compared_spec .right_part {
+      background-image: url(public/products/dev_comp.png);
+    }
+  }
+
+
+  .offers {
+    margin-bottom: toRem(100);
+
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: toRem(48);
+      line-height: 124.7%;
+      /* identical to box height, or 60px */
+
+      text-align: center;
+
+      color: #282828;
+      margin-bottom: toRem(70);
+
+    }
+
+
+    .offers_block {
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .offers_item {
+        width: calc((100% - 3.75rem)/3);
+        background: #F8F8FA;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: toRem(70) toRem(50);
+
+        img {
+          margin-bottom: toRem(24);
+        }
+
+        .button_call {
+          min-width: 80%;
+        }
+
+        .item_title {
+          margin-bottom: toRem(16);
+        }
+
+        .item_title,
+        .color_number {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: toRem(30);
+          line-height: toRem(36);
+          align-self: flex-start;
+          /* 1 clr */
+
+
+
+        }
+
+        ul {
+          padding-left: 0;
+          margin-bottom: toRem(35);
+          list-style-image: url(public/products/circle.svg);
+
+          li {
+            margin-bottom: toRem(10);
+
+            .bold_txt {
+              margin-bottom: toRem(5);
+            }
+          }
+        }
+
+        .color_number {
+          color: #0099FF;
+
+        }
+      }
+    }
+  }
+
+  .commercial {
+    margin-bottom: toRem(160);
+
+    .subtitle {
+      padding-left: toRem(70);
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: toRem(24);
+      line-height: 200%;
+      /* or 200% */
+
+
+      /* black */
+
+      color: #282828;
+    }
+
+    .title {
+      padding-left: toRem(70);
+      font-family: TT Norms Pro;
+      font-style: normal;
+      // font-weight: bold;
+      font-size: toRem(48);
+      line-height: 125%;
+      /* or 125% */
+
+
+      /* black */
+
+      color: #282828;
+      margin-bottom: toRem(30);
+    }
+
+    form {
+      width: 100%;
+      height: toRem(180);
+      background: #00AAEF url(public/products/form_bg.png);
+      background-size: cover;
+      padding: 0 toRem(90);
+      border-radius: 8px;
+      display: flex;
+      padding-top: toRem(48);
+      align-items: flex-start;
+      position: relative;
+
+      input {
+        width: toRem(275);
+        background: #FFFFFF;
+        border-radius: 8px;
+        padding: toRem(21) toRem(30);
+        border: none;
+        outline: none;
+        margin-right: toRem(10);
+      }
+
+      .button_call {
+        width: toRem(275);
+      }
+
+      .button_wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .form_img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: toRem(260);
+        // width: toRem(450);
+      }
+
+      a {
+        margin-left: toRem(20);
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: 500;
+        font-size: toRem(10);
+        line-height: 124.7%;
+        /* or 12px */
+
+
+        color: #FFFFFF;
+
+      }
+
+      label {
+        margin-top: toRem(12);
+        display: flex;
+        align-items: center;
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: 500;
+        font-size: toRem(10);
+        line-height: 124.7%;
+        /* or 12px */
+
+
+        color: #FFFFFF;
+
+        input {
+          margin-bottom: 0;
+          opacity: 0;
+          position: absolute;
+
+
+          ~.custom_chk {
+            margin-right: toRem(9);
+            width: 13px;
+            height: 13px;
+            background: #E7E7E7;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(-1px);
+            max-width: 13px;
+            flex-basis: 16%;
+
+            img {
+              position: static;
+              opacity: 0;
+            }
+          }
+
+          &:checked {
+            ~.custom_chk {
+              width: 13px;
+              height: 13px;
+              background: #FCA04A;
+              border-radius: 4px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              transform: translateY(-1px);
+              max-width: 13px;
+              flex-basis: 16%;
+
+              img {
+                opacity: 1;
+                position: static;
+                max-width: toRem(9);
+              }
+            }
+
+          }
+
+        }
+      }
+
+    }
+  }
+
+  .dev.seo_guarantee {
+    .container .guarantee_block {
+      flex-wrap: wrap;
+
+      .guarantee_block_item {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+
+      .check_circle {
+        background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
+      }
+    }
+  }
+
+
+  .activity {
+    margin-bottom: toRem(48);
+
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: toRem(36);
+      line-height: 167%;
+      /* identical to box height, or 167% */
+      margin-bottom: toRem(48);
+
+      /* black */
+
+      color: #282828;
+    }
+
+    .activity_block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .activity_item {
+        width: calc((100% - 5.625rem)/4);
+        display: flex;
+        flex-direction: column;
+
+        .number,
+        .item_title {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: toRem(36);
+          line-height: toRem(43);
+
+
+          /* 1 clr */
+
+
+        }
+
+        .item_title {
+          margin-bottom: toRem(30);
+        }
+
+        .row_title {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: toRem(21);
+          line-height: 143%;
+          /* or 143% */
+
+
+          /* black */
+
+          color: #282828;
+        }
+
+        .row_text {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: normal;
+          font-size: toRem(16);
+          line-height: toRem(22);
+          /* or 137% */
+
+
+          /* dark grey */
+
+          color: #7D7D7D;
+          margin-bottom: toRem(19);
+        }
+
+
+        &:nth-child(odd) {
+          .number {
+            color: #0099FF;
+          }
+        }
+
+        &:nth-child(even) {
+          .number {
+            color: #FCA04A;
+          }
+        }
+
+      }
+    }
+  }
+
+  .inner_main {
+    background-image: url(public/products/inner_main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: toRem(80);
+    padding-bottom: toRem(80);
+    margin-bottom: toRem(80);
+
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: toRem(230);
+    }
+
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: toRem(84);
+      line-height: toRem(101);
+      /* identical to box height */
+
+
+      color: #FFFFFF;
+    }
+
+    .breadcrumbs {
+      display: flex;
+      align-items: center;
+
+      .breadcrumb_item {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: toRem(14);
+        line-height: toRem(17);
+        text-decoration-line: underline;
+
+        color: #FFFFFF;
+
+        &.breadcrumb_curent {
+          text-decoration: none;
+        }
+
+      }
+
+      .splitter {
+        background: rgba(255, 255, 255, 0.48);
+        width: 1px;
+        height: toRem(24);
+        margin-right: toRem(12);
+        margin-left: toRem(12);
+      }
+    }
+  }
+
+  .content {
+    h1 {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: (48);
+      line-height: toRem(58);
+      /* identical to box height */
+
+
+      color: #262626;
+    }
+
+    h2 {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: toRem(30);
+      line-height: toRem(36);
+      /* identical to box height */
+
+
+      color: #262626;
+
+    }
+
+    h3 {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: toRem(24);
+      line-height: toRem(29);
+      /* identical to box height */
+
+
+      color: #262626;
+    }
+
+    img {
+      float: left;
+      margin: 0 toRem(30) 0 0;
+      max-width: 100%;
+      border-radius: 6px;
+    }
+
+
+
+
+
+
+
+
+  }
+
+  table {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 6px;
+    border-collapse: collapse;
+    margin-top: toRem(60);
+    margin-bottom: toRem(60);
+
+    tbody {
+      border-radius: 6px;
+      width: 100%;
+    }
+
+    tr {
+      border-bottom: 1px solid #EBEBEB;
+
+      &:hover {
+        td {
+          background: #4b80e34d;
+        }
+
+        //  background: #4B7FE3;
+      }
+
+      &:last-child {
+        border: none;
+      }
+    }
+
+    tr:first-child>td {
+      background: #5ABBFF;
+      padding: 25px 40px;
+
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 120.2%;
+      color: #FFFFFF;
+
+      &:first-child {
+        border-radius: 6px 0 0 0;
+      }
+
+      &:last-child {
+        border-radius: 0 6px 0 0;
+      }
+
+
+    }
+
+    tr>td {
+      transition: 300ms ease;
+      padding: 15px 40px 15px 40px;
+      background: #F8F8FA;
+
+
+
+
+      &:first-child {
+        padding-top: 30px;
+      }
+
+      &:last-child {
+        padding-bottom: 30px;
+      }
+    }
+  }
+
+  .suits {
+    margin-bottom: toRem(90);
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: toRem(48);
+      line-height: toRem(60);
+      /* or 60px */
+
+
+      color: #282828;
+      margin-bottom: toRem(48);
+      position: relative;
+      align-self: flex-start;
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 105%;
+      }
+    }
+
+    .suits_block {
+      display: flex;
+      justify-content: space-between;
+
+      .col {
+        width: calc(50% - 0.938rem);
+      }
+    }
+  }
+
+
+  .results {
+    margin-bottom: toRem(90);
+
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: toRem(48);
+      line-height: 124.7%;
+      /* or 60px */
+
+      text-align: center;
+
+      color: #282828;
+      margin-bottom: toRem(70);
+
+    }
+
+    .results_block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .results_item {
+      display: flex;
+      align-items: flex-start;
+      width: calc((100% - 3.75rem)/3);
+
+      .number {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: 800;
+        font-size: toRem(48);
+        line-height: 44%;
+        /* identical to box height, or 44% */
+
+        margin-right: toRem(20);
+        /* 2 clr */
+
+        color: #5ABBFF;
+      }
+    }
+  }
+
+
+  .inner_main.about {
+    background-image: url(public/products/about_bg.png);
+
+    .title {
+      font-weight: normal;
+      width: 50%;
+      font-size: toRem(60);
+      line-height: toRem(72);
+
+      color: #FFFFFF;
+      margin-bottom: toRem(30);
+
+    }
+
+    .subtitle {
+      width: 50%;
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: toRem(16);
+      line-height: toRem(22);
+      /* or 137% */
+
+
+      color: #FFFFFF;
+    }
+
+    .container {
+      min-height: toRem(450);
+    }
+
+
+
+
+  }
+
+  .cv {
+    margin-bottom: toRem(115);
+
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+
+      font-size: toRem(36);
+      line-height: toRem(48);
+      /* or 133% */
+
+      text-align: center;
+
+      /* 1 clr */
+
+
+
+      width: 70%;
+      margin: auto;
+      margin-bottom: toRem(90);
+    }
+
+    .link_block {
+      display: flex;
+      background: linear-gradient(121.24deg, #0099FF 0%, #5ABBFF 99.99%, #5BBCFF 100%);
+      border-radius: 8px;
+      position: relative;
+      min-height: toRem(180);
+      align-items: center;
+      padding-left: toRem(90);
+
+      .link_block_img {
+        position: absolute;
+        right: toRem(65);
+        z-index: 0;
+        width: toRem(350);
+
+      }
+
+      .block_sign {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: toRem(36);
+        line-height: toRem(44);
+        /* or 122% */
+
+        width: 24%;
+        color: #FFFFFF;
+        margin-right: toRem(60);
+      }
+
+      .button_call {
+
+        margin-right: toRem(15);
+        z-index: 1;
+      }
+
+
+    }
+  }
+
+  .innumbers {
+    margin-bottom: toRem(100);
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+
+      .title {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: toRem(36);
+        line-height: 161%;
+        /* or 161% */
+
+
+        color: #000000;
+
+      }
+
+      .innumber_item {
+        .number {
+
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: toRem(60);
+          line-height: toRem(48);
+          color: #0099FF;
+        }
+
+        .innumber_text {
+          font-family: TT Norms Pro;
+          font-style: normal;
+
+          font-size: toRem(18);
+          line-height: toRem(30);
+        }
+      }
+    }
+  }
+
+  .preview {
+    margin-bottom: toRem(60);
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .sign {
+        background: linear-gradient(121.24deg, #118fe7, #5bbcff);
+        width: toRem(160);
+        border-radius: 6px;
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 118.7%;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 0.9375rem;
+        transform: skew(-15deg);
+        padding: 0.4375rem 0.9375rem;
+
+        div {
+          transform: skew(15deg);
+        }
+      }
+
+      .title_second {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: toRem(48);
+        line-height: 124.7%;
+
+
+        color: #282828;
+
+        img {
+          display: inline;
+        }
+
+        margin-bottom: toRem(24);
+      }
+
+      .title {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: toRem(60);
+        line-height: toRem(72);
+        margin-bottom: toRem(20);
+
+        /* 4 */
+
+        color: #282828;
+      }
+
+      .left_part {
+        width: 50%;
+
+      }
+
+      .right_part {
+        width: 50%;
+
+        img {
+          object-fit: cover;
+          object-position: center;
+          border-radius: 12px;
+
+        }
+      }
+
+      ul {
+        list-style-image: url(public/products/check_circl.svg);
+        // padding-left: toRem(15);
+        padding-left: 20px;
+      }
+    }
+  }
+
+
+
+  .posts {
+    margin-bottom: toRem(80);
+
+    .title {
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: toRem(48);
+      line-height: 124.7%;
+      /* identical to box height, or 60px */
+      margin-bottom: toRem(70);
+      text-align: center;
+
+      color: #282828;
+    }
+
+    .posts_block {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .posts_item {
+        width: calc((100% - 5.625rem)/4);
+      }
+    }
+  }
+
+
+  .map_section {
+    margin-bottom: toRem(100);
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+
+      .left_part {
+        display: flex;
+        flex-direction: column;
+
+        .title {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: toRem(48);
+          line-height: 150%;
+          margin-bottom: toRem(30);
+          /* or 150% */
+
+
+          /* black */
+
+          color: #282828;
+        }
+      }
+
+      .map {
+        width: 48%;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .map_left_row {
+        display: flex;
+        align-items: center;
+        margin-bottom: toRem(36);
+
+      }
+
+      .img_block {
+        border-radius: 120%;
+        background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
+        width: toRem(64);
+        height: toRem(64);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+          fill: #fff;
+        }
+
+        margin-right: toRem(24);
+      }
+
+      .name {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: toRem(24);
+        line-height: 100%;
+        /* or 100% */
+        margin-bottom: toRem(4);
+
+        color: #000000;
+      }
+
+      .text,
+      .text a {
+
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: toRem(18);
+        line-height: 133%;
+        color: #000000;
+      }
+
+      .text a {
+        &:first-child {
+          margin-right: 10px;
+        }
+      }
+
+      .right_part {
+        // position: relative;
+        width: 17%;
+        border: 2px dashed #FCA04A;
+        // box-sizing: border-box;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: toRem(36);
+        padding-left: toRem(25);
+        padding-right: toRem(25);
+        text-align: center;
+
+        .top_img {
+          width: 18%;
+          transform: translateY(-2px);
+        }
+
+        .sub_sign {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: normal;
+          font-size: (14);
+          line-height: 129%;
+          /* or 129% */
+
+
+          /* black */
+
+          color: #282828;
+
+        }
+
+        .comand {
+          background: #FFF3E1;
+          border-radius: 8px;
+          padding: toRem(8) toRem(20);
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: toRem(18);
+          line-height: 167%;
+          /* or 167% */
+
+
+
+          color: #282828;
+        }
+      }
+    }
+
+  }
+
+
+
+  .video_review {
+    margin-bottom: toRem(90);
+
+    .video_row {
+      margin-bottom: toRem(48);
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .video_block {
+        width: 35%;
+      }
+
+      .video_sign {
+        width: 55%;
+      }
+
+      .company {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: toRem(30);
+        line-height: 140%;
+        /* identical to box height, or 240% */
+
+
+        color: #282828;
+        margin-bottom: toRem(10);
+      }
+
+      .name {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: toRem(16);
+        line-height: 110%;
+        /* identical to box height, or 450% */
+
+
+        color: #282828;
+        margin-bottom: toRem(4);
+
+      }
+
+      .position {
+        margin-bottom: toRem(5);
+      }
+
+
+      .text {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: toRem(16);
+        line-height: toRem(22);
+        color: #7D7D7D;
+        position: relative;
+
+        &::before {
+          position: absolute;
+          content: url(public/products/coma.png);
+          top: 0;
+          left: -70px;
+        }
+      }
+    }
+
+    .video_block {
+      position: relative;
+
+      >img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .video_wrapper {
+        position: absolute;
+        top: calc(50% - 2.875rem);
+        left: calc(50% - 2.875rem);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .contain_first {
+          background: rgba(255, 255, 255, 0.08);
+          backdrop-filter: blur(6px);
+          // padding: toRem(20);
+          border-radius: 120%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: toRem(250);
+          height: toRem(250);
+          padding: toRem(20);
+          animation: radio 4s linear infinite;
+          position: absolute;
+
+
+        }
+
+        .contain_second {
+          border-radius: 120%;
+          background: rgba(255, 255, 255, 0.24);
+          backdrop-filter: blur(6px);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 100%;
+          height: 100%;
+          // animation: radio2 3s linear infinite;
+
+        }
+
+        img {
+          width: toRem(92);
+          height: toRem(92);
+          z-index: 1;
+        }
+      }
+    }
+  }
+
+
+  @keyframes radio {
+    0% {
+      width: toRem(0);
+      height: toRem(0);
+    }
+
+    30% {
+      opacity: 1
+    }
+
+    80% {
+      opacity: .8
+    }
+
+    to {
+      width: toRem(250);
+      height: toRem(250);
+      opacity: 0
+    }
+  }
+
+  .review_blank {
+    margin-bottom: toRem(200);
+
+    .container {
+      background: #F8F8FA;
+      border-radius: 8px;
+      padding-top: toRem(80);
+      padding-bottom: toRem(80);
+      padding-left: .9375rem;
+      padding-right: .9375rem;
+      overflow: hidden;
+
+    }
+
+    .swiper-wrapper {
+
+      // min-height: toRem(290);
+      img {
+        width: 100%;
+      }
+
+    }
+
+    .swiper-button-prev {
+      left: -24px;
+    }
+
+    .swiper-button-next {
+      right: -24px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      background-color: #3EAFFF;
+      border: 10px solid #FFFFFF;
+      border-radius: 120%;
+      width: toRem(48);
+      height: toRem(48);
+
+      &.swiper-button-disabled {
+        border: 10px solid #FFFFFF;
+        background-color: #D8D8D8;
+        opacity: 1;
+      }
+    }
+
+    .swiper {
+      overflow: visible;
+    }
+  }
+
+  @media screen and (max-width:900px) {
+    section.review_blank {
+      margin-bottom: 40px;
+
+      .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+    }
+
+    section.video_review {
+      margin-bottom: 40px;
+
+      .video_row {
+        margin-bottom: 30px;
+        flex-direction: column;
+
+        .company {
+          font-size: 22px;
+        }
+
+        .video_block {
+          width: 100%;
+          height: 200px;
+          margin-bottom: 15px;
+
+        }
+
+        .video_sign {
+          width: 100%;
+        }
+
+        .text {
+          font-size: 14px;
+        }
+
+        .text:before {
+          height: 20px;
+          left: auto;
+          right: 0;
+          top: -40px;
+        }
+
+        .video_wrapper {
+          top: calc(50% - 35px);
+          left: calc(50% - 35px);
+
+          img {
+            width: 70px;
+            height: 70px;
+          }
+        }
+      }
+    }
+
+    @keyframes radio {
+      0% {
+        width: toRem(0);
+        height: toRem(0);
+      }
+
+      30% {
+        opacity: 1
+      }
+
+      80% {
+        opacity: .8
+      }
+
+      to {
+        width: 190px;
+        height: 190px;
+        opacity: 0
+      }
+    }
+  }
+
+  .blog_section {
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+
+    .blog_item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: calc((100% - 3.75rem)/3);
+      margin-bottom: toRem(40);
+
+      img {
+        width: 100%;
+        height: toRem(300);
+        object-position: center;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: toRem(20);
+      }
+
+      .item_row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: toRem(20);
+
+      }
+
+      .tag {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: toRem(16);
+        line-height: 131%;
+        /* identical to box height, or 131% */
+
+
+        /* clr2 */
+
+        color: #FCA04A;
+      }
+
+      .date {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: toRem(16);
+        line-height: 131%;
+        /* identical to box height, or 131% */
+
+
+        /* dark grey */
+
+        color: #7D7D7D;
+      }
+
+      .item_title {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: toRem(24);
+        line-height: 133%;
+        /* or 133% */
+
+
+        /* black */
+
+        color: #282828;
+
+      }
+
+      .more_link {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: toRem(16);
+        line-height: 131%;
+        /* identical to box height, or 131% */
+
+
+        /* 1 clr */
+
+        color: #0099FF;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+
+  .pagination {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    margin-top: toRem(80);
+    margin-bottom: toRem(80);
+
+    .button_prev {
+      margin-right: toRem(5);
+      margin-left: toRem(5);
+      font-family: TT Norms Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: toRem(16);
+      line-height: 131%;
+      /* or 131% */
+
+      text-align: right;
+
+      color: #D8D8D8;
+
+      &.active {
+        color: #0099FF;
+      }
+    }
+
+    .page {
+      margin-right: toRem(10);
+      margin-left: toRem(10);
+    }
+
+
+  }
+
+  .inner_main.article {
+    margin-bottom: toRem(180);
+    .title {
+      font-size: toRem(48);
+      line-height: toRem(58);
+      width: 50%;
+    }
+    .container{
+      position: relative;
+    }
+    .title_wrapper{
+     
+      display: flex;
+      justify-content: space-between;
+      .article_img{
+        position: absolute;
+        width: 45%;
+        top: 0;
+        right: 0;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 8px;
+
+        // height: toRem(450);
+      }
+    }
+    
+  }
+  @media screen and (max-width:900px) {
+
+    .pagination {
+      margin-top: 30px;
+      margin-bottom: 40px;
+
+      .button_prev {
+        margin-right: 5px;
+        margin-left: 5px;
+
+        font-size: 14px;
+        line-height: 131%;
+
+
+      }
+
+      .page {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+
+
+    }
+
+    section.blog_section {
+      .blog_item {
+        width: calc(50% - 15px);
+        margin-bottom: 25px;
+
+        img {
+          height: 200px;
+        }
+
+        .item_row {
+          margin-bottom: 10px;
+        }
+
+        .item_title {
+          font-size: 21px;
+          line-height: 23px;
+        }
+      }
+    }
+
+
+    section.inner_main.article{
+      margin-bottom: 40px;
+      .title_wrapper {
+        flex-direction: column-reverse;
+        .title{
+          width: 100%;
+          font-size: 26px;
+          line-height: 27px;
+          align-self: center;
+          text-align: center;
+        }
+        .article_img{
+          align-self: center;
+          width: 40%;
+          position: static;
+          margin-top: 15px;
+          margin-bottom: 15px;
+        }
+      }
+    } 
+   
+  }
+
+  @media screen and (max-width:600px) {
+    section.blog_section {
+      .blog_item {
+        width: 100%;
+      }
+    }
+
+    section.inner_main.article .title_wrapper {
+    
+      .article_img{
+      
+        width: 80%;
+      
+      }
+    }
+  }
+
+  
+
+  
   @media screen and (max-width: 1200px) {
 
     .block_clients .swiper-button-next,
@@ -3862,469 +6156,7 @@
     }
   }
 
-  .smm_main {
-    #seo_main {
-      .item3 {
-        left: 0 !important;
-        top: -15px !important;
-      }
-    }
-
-  }
-
-  .case {
-    .container {
-      overflow: hidden;
-      padding-right: toRem(20);
-      padding-left: toRem(20);
-    }
-
-    .swiper {
-      overflow: visible;
-    }
-
-    .case_swiper {}
-
-    margin-bottom: toRem(75);
-
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .sign {
-
-      background: linear-gradient(121.24deg, #118FE7 0%, #5BBCFF 100%);
-      border-radius: 6px;
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: 500;
-      font-size: toRem(18);
-      line-height: 118.7%;
-      /* or toRem(21) */
-
-      text-align: center;
-
-      color: #FFFFFF;
-      margin-bottom: toRem(15);
-      transform: skew(-15deg);
-      padding: toRem(7) toRem(15);
-
-      div {
-
-        transform: skew(15deg);
-      }
-
-    }
-
-    margin-bottom: toRem(75);
-
-    .subtitle {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: normal;
-      font-size: toRem(24);
-      line-height: toRem(48);
-      /* identical to box height, or 200% */
-
-      text-align: center;
-
-      /* black */
-
-      color: #282828;
-    }
-
-    .title {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: bold;
-      font-size: toRem(48);
-      line-height: 124.7%;
-      /* identical to box height, or toRem(60) */
-
-      text-align: center;
-
-      color: #282828;
-      margin-bottom: toRem(60);
-    }
-
-    .swiper-slide {
-      padding: toRem(35);
-      border-radius: 8px;
-      min-height: toRem(740);
-      background-repeat: no-repeat;
-      background-size: cover;
-      // margin-right: 15px;
-      // margin-left: 15px;
-      display: flex;
-      flex-direction: column;
-      align-items: baseline;
-
-
-      justify-content: space-between;
-
-      .profile {
-        font-weight: 400;
-        font-size: toRem(16);
-        line-height: 160.7%;
-        color: #fff;
-      }
-
-      .name {
-        font-weight: 900;
-        font-size: toRem(30);
-        line-height: 160.7%;
-        color: #fff;
-      }
-
-      .bottom {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .row_bottom {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .big_number {
-        font-weight: 900;
-        font-size: toRem(60);
-        line-height: 124.7%;
-        color: #fff;
-      }
-
-      .row_bottom .number,
-      .row_bottom .text {
-        font-weight: 700;
-        font-size: toRem(16);
-        line-height: 124.7%;
-        color: #fff;
-      }
-    }
-  }
-
-  .seo_methods .compared_block .compared_spec .right_part {
-    background-image: url(public/products/smm_compear.png);
-  }
-
-  .smm_guarantee {
-    // background-image: url(public/products/spec_fon.png);
-    // background-repeat: no-repeat;
-    // background-position: bottom;
-    // background-size: cover;
-    // margin-bottom: toRem(100);
-
-    // .container {
-    //   display: flex;
-    //   align-items: flex-end;
-
-    //   .title {
-
-    //     font-family: TT Norms Pro;
-    //     font-style: normal;
-    //     font-weight: bold;
-    //     font-size: toRem(36);
-    //     line-height: 124.7%;
-    //     /* or toRem(45) */
-    //     margin-bottom: toRem(30);
-
-
-    //     color: #282828;
-    //   }
-
-    //   .subtitle {
-    //     font-family: TT Norms Pro;
-    //     font-style: normal;
-    //     font-size: toRem(24);
-    //     line-height: toRem(32);
-    //     margin-bottom: toRem(30);
-    //     color: #282828;
-    //   }
-
-    //   .img_block {
-    //     width: 31%;
-    //     padding-left: toRem(60);
-    //     position: relative;
-    //     display: flex;
-    //     align-items: flex-end;
-
-    //   }
-
-    //   .img_block_info {
-    //     position: absolute;
-    //     bottom: toRem(50);
-    //     left: 32%;
-    //     display: flex;
-    //     flex-direction: column;
-    //     align-items: center;
-
-    //     .name {
-    //       font-family: TT Norms Pro;
-    //       font-style: normal;
-    //       font-weight: 500;
-    //       font-size: toRem(18);
-    //       line-height: toRem(28);
-    //       /* or 156% */
-
-    //       text-align: center;
-
-    //       color: #FFFFFF;
-    //       background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
-    //       border-radius: 6px;
-    //       padding:toRem(7) toRem(15);
-    //     }
-
-    //     .edge {
-    //       font-family: TT Norms Pro;
-    //       font-style: normal;
-    //       font-weight: normal;
-    //       font-size:toRem(14);
-    //       line-height: toRem(28);
-    //       /* or 200% */
-
-    //       text-align: center;
-
-    //       color: #282828;
-
-    //       background: #FFFFFF;
-    //       border-radius: 4px;
-    //       padding: 1px toRem(12);
-
-    //     }
-    //   }
-
-    //   .guarantee_info {
-    //     padding-left: toRem(40);
-    //     width: 69%;
-    //     padding-bottom: toRem(80);
-    //     padding-right: toRem(40);
-    //   }
-
-    //   .guarantee_block {
-    //     display: flex;
-    //     justify-content: space-between;
-
-    //     .guarantee_block_item {
-    //       display: flex;
-    //       width: calc((100% - 3rem)/3);
-
-    //     }
-
-    //     .check_circle {
-    //       display: flex;
-    //       align-items: center;
-    //       justify-content: center;
-    //       background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
-    //       border-radius: 120%;
-    //       width: 50%;
-    //       max-width: toRem(36);
-    //       height: toRem(36);
-    //       flex-grow: 1;
-    //       margin-right: toRem(18);
-    //     }
-    //   }
-    // }
-
-  }
-
-  .smm_guarantee.seo_guarantee .container .guarantee_block .check_circle {
-    background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
-  }
-
-  .gallery.smm {
-    .title {
-      text-align: center;
-      margin-bottom: toRem(8);
-    }
-
-    .subtitle {
-      margin-bottom: toRem(58);
-    }
-  }
-
-
-  .progress {
-    margin-bottom: toRem(75);
-
-    .subtitle {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: normal;
-      font-size: toRem(24);
-      line-height: toRem(48);
-      /* identical to box height, or 200% */
-
-      text-align: center;
-
-      /* black */
-
-      color: #282828;
-    }
-
-    .title {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      // font-weight: bold;
-      font-size: toRem(48);
-      line-height: 124.7%;
-      /* identical to box height, or toRem(60) */
-
-      text-align: center;
-
-      color: #282828;
-      margin-bottom: toRem(60);
-    }
-
-    .progress_block {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-
-      .progress_item {
-        width: calc((100% - 3.75rem)/3);
-        margin-bottom: toRem(60);
-
-        .number {
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: 800;
-          font-size: toRem(36);
-          line-height: toRem(22);
-          color: #0099FF;
-          margin-bottom: toRem(30);
-        }
-
-        .block_title {
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: bold;
-          font-size: toRem(24);
-          line-height: toRem(22);
-          /* identical to box height, or 92% */
-
-
-          /* 4 */
-
-          color: #282828;
-          margin-bottom: toRem(24);
-        }
-
-      }
-    }
-  }
-
-  .stages {
-    .title {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      // font-weight: bold;
-      font-size: toRem(48);
-      line-height: 124.7%;
-      /* identical to box height, or toRem(60) */
-
-      text-align: center;
-
-      color: #282828;
-      margin-bottom: toRem(80);
-    }
-
-
-    .progress_block {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-
-      .progress_item {
-        width: calc(50% - 1.875rem);
-        margin-bottom: toRem(60);
-
-        .number {
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: 800;
-          font-size: toRem(36);
-          line-height: toRem(22);
-          color: #EE6E54;
-          margin-bottom: toRem(30);
-        }
-
-        .block_title {
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: bold;
-          font-size: toRem(24);
-          line-height: toRem(22);
-          /* identical to box height, or 92% */
-
-
-          /* 4 */
-
-          color: #282828;
-          margin-bottom: toRem(24);
-        }
-
-      }
-    }
-
-  }
-
-  .our-garantee {
-    .title {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      // font-weight: bold;
-      font-size: toRem(48);
-      line-height: 124.7%;
-      /* identical to box height, or toRem(60) */
-
-      text-align: center;
-
-      color: #282828;
-      margin-bottom: toRem(80);
-    }
-
-
-    .progress_block {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-
-      .progress_item {
-        width: calc((100% - 5.625rem)/4);
-        margin-bottom: toRem(60);
-
-        .number {
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: 800;
-          font-size: toRem(36);
-          line-height: toRem(22);
-          color: #EE6E54;
-          margin-bottom: toRem(30);
-        }
-
-        .block_title {
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: bold;
-          font-size: toRem(24);
-          line-height: toRem(22);
-          /* identical to box height, or 92% */
-
-
-          /* 4 */
-
-          color: #282828;
-          margin-bottom: toRem(24);
-        }
-
-      }
-    }
-  }
-
-
+  
   @media screen and (max-width: 420px) {
 
     section.commercial form,
@@ -4345,52 +6177,8 @@
 
   }
 
-  .seo_methods .compared_block .compared_spec .right_part {
-    li img {
-      display: inline;
-    }
-  }
 
-  .seo_methods.cntx_methods .compared_block .compared_spec .right_part {
-    background-image: url(public/products/cntx_compear.png);
-  }
-
-  .certified_partn {
-    margin-bottom: toRem(90);
-
-    .container {
-      background: url(public/products/certificate_bg.png) #0099FF;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border-radius: 12px;
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: normal;
-      font-size: toRem(48);
-      line-height: 118.7%;
-      /* or 57px */
-
-
-      color: #FFFFFF;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      // padding: toRem(29) toRem(120) toRem(29) toRem(210);
-      padding-right: toRem(120);
-      height: toRem(126);
-
-      .trumpet {
-        height: 100%;
-      }
-
-      .certif {
-        width: 17%;
-      }
-
-    }
-  }
-
-
+  
   @media screen and (max-width:500px) {
 
     section.certified_partn .container {
@@ -4411,604 +6199,7 @@
   }
 
 
-  .gallery.context {
-    .title {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: bold;
-      font-size: toRem(48);
-      line-height: 124.7%;
-      /* identical to box height, or 60px */
-
-      text-align: center;
-
-      color: #282828;
-      margin-bottom: toRem(8);
-
-    }
-
-    .subtitle {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      // font-weight: bold;
-      font-size: toRem(30);
-      line-height: toRem(48);
-      /* identical to box height, or 160% */
-
-      text-align: center;
-
-      /* black */
-
-      color: #282828;
-      margin-bottom: toRem(67);
-    }
-  }
-
-  .stages.context .progress_block .progress_item .number {
-    color: #0099FF;
-  }
-
-
-  .last_work {
-    margin-bottom: toRem(80);
-
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .title {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: bold;
-      font-size: toRem(48);
-      line-height: 124.7%;
-      /* identical to box height, or 60px */
-
-      text-align: center;
-
-      color: #282828;
-      margin-bottom: toRem(70);
-    }
-
-
-    .sign {
-
-      background: linear-gradient(121.24deg, #118FE7 0%, #5BBCFF 100%);
-      border-radius: 6px;
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: 500;
-      font-size: toRem(18);
-      line-height: 118.7%;
-      /* or toRem(21) */
-
-      text-align: center;
-
-      color: #FFFFFF;
-      margin-bottom: toRem(15);
-      transform: skew(-15deg);
-      padding: toRem(7) toRem(15);
-
-      div {
-
-        transform: skew(15deg);
-      }
-
-    }
-
-
-    .work_block {
-      width: 100%;
-      // height: toRem(750);
-      height: auto;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-
-      .work_block_col {
-        width: calc(50% - 0.938rem);
-        height: 100%;
-        height: toRem(750);
-        margin-bottom: toRem(30);
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        grid-gap: toRem(30);
-
-        &:nth-child(odd) {
-          .work_item {
-            &:nth-child(3n+1) {
-              grid-area: 1 / 1 / 3 / 3;
-            
-            }
-            // &:first-child {
-            //   grid-area: 1 / 1 / 3 / 3;
-            // }
-
-            &:nth-child(2n) {
-              grid-area: 3 / 1 / 4 / 2;
-            }
-
-            &:nth-child(3n) {
-              grid-area: 3 / 2 / 4 / 3;
-            }
-
-          }
-        }
-
-        &:nth-child(even) {
-          .work_item {
-            &:first-child {
-              grid-area: 1 / 1 / 2 / 2;
-            }
-
-            &:nth-child(2) {
-              grid-area: 1 / 2 / 2 / 3;
-            }
-
-            &:last-child {
-
-
-
-              grid-area: 2 / 1 / 4 / 3;
-            }
-
-          }
-        }
-
-        .work_item {
-          // margin-bottom: toRem(30);     
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          border-radius: 8px;
-          padding: toRem(20) toRem(35);
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          position: relative;
-          overflow: hidden;
-
-          .img_hidden {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            transform: translateY(100%);
-            transition: 200ms ease;
-          }
-
-
-
-
-
-
-
-
-
-          .work_name {
-            font-family: TT Norms Pro;
-            font-style: normal;
-            font-weight: bold;
-            font-size: toRem(21);
-            line-height: toRem(24);
-            /* identical to box height, or 229% */
-
-
-            color: #FFFFFF;
-            margin-bottom: toRem(3);
-          }
-
-          .work_sign {
-            font-family: TT Norms Pro;
-            font-style: normal;
-            font-weight: normal;
-            font-size: toRem(16);
-            line-height: toRem(24);
-            /* identical to box height, or 300% */
-
-
-            color: #FFFFFF;
-          }
-
-          .hidden_link {
-            opacity: 0;
-            font-family: TT Norms Pro;
-            font-style: normal;
-            font-weight: bold;
-            font-size: toRem(16);
-            line-height: toRem(24);
-            /* or 300% */
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            z-index: 1;
-            color: #FFFFFF;
-            transition: ease 300ms;
-
-            svg {
-              fill: #fff;
-            }
-          }
-
-          &:hover {
-            .hidden_link {
-              opacity: 1;
-            }
-
-            .img_hidden {
-              transform: translateY(0);
-            }
-          }
-        }
-      }
-    }
-  }
-
-
-  .seo_methods.dev {
-
-    .compared_block .compared_spec .right_part {
-      background-image: url(public/products/dev_comp.png);
-    }
-  }
-
-
-  .offers {
-    margin-bottom: toRem(100);
-
-    .title {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: bold;
-      font-size: toRem(48);
-      line-height: 124.7%;
-      /* identical to box height, or 60px */
-
-      text-align: center;
-
-      color: #282828;
-      margin-bottom: toRem(70);
-
-    }
-
-
-    .offers_block {
-
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-
-      .offers_item {
-        width: calc((100% - 3.75rem)/3);
-        background: #F8F8FA;
-        border-radius: 8px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: toRem(70) toRem(50);
-
-        img {
-          margin-bottom: toRem(24);
-        }
-
-        .button_call {
-          min-width: 80%;
-        }
-
-        .item_title {
-          margin-bottom: toRem(16);
-        }
-
-        .item_title,
-        .color_number {
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: bold;
-          font-size: toRem(30);
-          line-height: toRem(36);
-          align-self: flex-start;
-          /* 1 clr */
-
-
-
-        }
-
-        ul {
-          padding-left: 0;
-          margin-bottom: toRem(35);
-          list-style-image: url(public/products/circle.svg);
-
-          li {
-            margin-bottom: toRem(10);
-
-            .bold_txt {
-              margin-bottom: toRem(5);
-            }
-          }
-        }
-
-        .color_number {
-          color: #0099FF;
-
-        }
-      }
-    }
-  }
-
-  .commercial {
-    margin-bottom: toRem(160);
-
-    .subtitle {
-      padding-left: toRem(70);
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: normal;
-      font-size: toRem(24);
-      line-height: 200%;
-      /* or 200% */
-
-
-      /* black */
-
-      color: #282828;
-    }
-
-    .title {
-      padding-left: toRem(70);
-      font-family: TT Norms Pro;
-      font-style: normal;
-      // font-weight: bold;
-      font-size: toRem(48);
-      line-height: 125%;
-      /* or 125% */
-
-
-      /* black */
-
-      color: #282828;
-      margin-bottom: toRem(30);
-    }
-
-    form {
-      width: 100%;
-      height: toRem(180);
-      background: #00AAEF url(public/products/form_bg.png);
-      background-size: cover;
-      padding: 0 toRem(90);
-      border-radius: 8px;
-      display: flex;
-      padding-top: toRem(48);
-      align-items: flex-start;
-      position: relative;
-
-      input {
-        width: toRem(275);
-        background: #FFFFFF;
-        border-radius: 8px;
-        padding: toRem(21) toRem(30);
-        border: none;
-        outline: none;
-        margin-right: toRem(10);
-      }
-
-      .button_call {
-        width: toRem(275);
-      }
-
-      .button_wrapper {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-      }
-
-      .form_img {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        height: toRem(260);
-        // width: toRem(450);
-      }
-
-      a {
-        margin-left: toRem(20);
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: 500;
-        font-size: toRem(10);
-        line-height: 124.7%;
-        /* or 12px */
-
-
-        color: #FFFFFF;
-
-      }
-
-      label {
-        margin-top: toRem(12);
-        display: flex;
-        align-items: center;
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: 500;
-        font-size: toRem(10);
-        line-height: 124.7%;
-        /* or 12px */
-
-
-        color: #FFFFFF;
-
-        input {
-          margin-bottom: 0;
-          opacity: 0;
-          position: absolute;
-
-
-          ~.custom_chk {
-            margin-right: toRem(9);
-            width: 13px;
-            height: 13px;
-            background: #E7E7E7;
-            border-radius: 4px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transform: translateY(-1px);
-            max-width: 13px;
-            flex-basis: 16%;
-
-            img {
-              position: static;
-              opacity: 0;
-            }
-          }
-
-          &:checked {
-            ~.custom_chk {
-              width: 13px;
-              height: 13px;
-              background: #FCA04A;
-              border-radius: 4px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              transform: translateY(-1px);
-              max-width: 13px;
-              flex-basis: 16%;
-
-              img {
-                opacity: 1;
-                position: static;
-                max-width: toRem(9);
-              }
-            }
-
-          }
-
-        }
-      }
-
-    }
-  }
-
-  .dev.seo_guarantee {
-    .container .guarantee_block {
-      flex-wrap: wrap;
-
-      .guarantee_block_item {
-        width: 100%;
-        margin-bottom: 15px;
-      }
-
-      .check_circle {
-        background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
-      }
-    }
-  }
-
-
-  .activity {
-    margin-bottom: toRem(48);
-
-    .title {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: normal;
-      font-size: toRem(36);
-      line-height: 167%;
-      /* identical to box height, or 167% */
-      margin-bottom: toRem(48);
-
-      /* black */
-
-      color: #282828;
-    }
-
-    .activity_block {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-
-      .activity_item {
-        width: calc((100% - 5.625rem)/4);
-        display: flex;
-        flex-direction: column;
-
-        .number,
-        .item_title {
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: bold;
-          font-size: toRem(36);
-          line-height: toRem(43);
-
-
-          /* 1 clr */
-
-
-        }
-
-        .item_title {
-          margin-bottom: toRem(30);
-        }
-
-        .row_title {
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: bold;
-          font-size: toRem(21);
-          line-height: 143%;
-          /* or 143% */
-
-
-          /* black */
-
-          color: #282828;
-        }
-
-        .row_text {
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: normal;
-          font-size: toRem(16);
-          line-height: toRem(22);
-          /* or 137% */
-
-
-          /* dark grey */
-
-          color: #7D7D7D;
-          margin-bottom: toRem(19);
-        }
-
-
-        &:nth-child(odd) {
-          .number {
-            color: #0099FF;
-          }
-        }
-
-        &:nth-child(even) {
-          .number {
-            color: #FCA04A;
-          }
-        }
-
-      }
-    }
-  }
-
+  
   @media screen and (max-width:550px) {
 
     section.activity .activity_block .activity_item {
@@ -5020,186 +6211,6 @@
   }
 
 
-
-  .inner_main {
-    background-image: url(public/products/inner_main.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: toRem(80);
-    padding-bottom: toRem(80);
-    margin-bottom: toRem(80);
-
-
-    .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      min-height: toRem(230);
-    }
-
-    .title {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: bold;
-      font-size: toRem(84);
-      line-height: toRem(101);
-      /* identical to box height */
-
-
-      color: #FFFFFF;
-    }
-
-    .breadcrumbs {
-      display: flex;
-      align-items: center;
-
-      .breadcrumb_item {
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: toRem(14);
-        line-height: toRem(17);
-        text-decoration-line: underline;
-
-        color: #FFFFFF;
-
-        &.breadcrumb_curent {
-          text-decoration: none;
-        }
-
-      }
-
-      .splitter {
-        background: rgba(255, 255, 255, 0.48);
-        width: 1px;
-        height: toRem(24);
-        margin-right: toRem(12);
-        margin-left: toRem(12);
-      }
-    }
-  }
-
-  .content {
-    h1 {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: bold;
-      font-size: (48);
-      line-height: toRem(58);
-      /* identical to box height */
-
-
-      color: #262626;
-    }
-
-    h2 {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: bold;
-      font-size: toRem(30);
-      line-height: toRem(36);
-      /* identical to box height */
-
-
-      color: #262626;
-
-    }
-
-    h3 {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: bold;
-      font-size: toRem(24);
-      line-height: toRem(29);
-      /* identical to box height */
-
-
-      color: #262626;
-    }
-
-    img {
-      float: left;
-      margin: 0 toRem(30) 0 0;
-      max-width: 100%;
-      border-radius: 6px;
-    }
-
-
-
-
-
-
-
-
-  }
-
-  table {
-    overflow: hidden;
-    width: 100%;
-    border-radius: 6px;
-    border-collapse: collapse;
-    margin-top: toRem(60);
-    margin-bottom: toRem(60);
-
-    tbody {
-      border-radius: 6px;
-      width: 100%;
-    }
-
-    tr {
-      border-bottom: 1px solid #EBEBEB;
-
-      &:hover {
-        td {
-          background: #4b80e34d;
-        }
-
-        //  background: #4B7FE3;
-      }
-
-      &:last-child {
-        border: none;
-      }
-    }
-
-    tr:first-child>td {
-      background: #5ABBFF;
-      padding: 25px 40px;
-
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 120.2%;
-      color: #FFFFFF;
-
-      &:first-child {
-        border-radius: 6px 0 0 0;
-      }
-
-      &:last-child {
-        border-radius: 0 6px 0 0;
-      }
-
-
-    }
-
-    tr>td {
-      transition: 300ms ease;
-      padding: 15px 40px 15px 40px;
-      background: #F8F8FA;
-
-
-
-
-      &:first-child {
-        padding-top: 30px;
-      }
-
-      &:last-child {
-        padding-bottom: 30px;
-      }
-    }
-  }
 
   @media screen and (max-width: 900px) {
     .content {
@@ -5284,486 +6295,6 @@
         display: block;
       }
 
-    }
-
-  }
-
-
-  .suits {
-    margin-bottom: toRem(90);
-
-    .container {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .title {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: normal;
-      font-size: toRem(48);
-      line-height: toRem(60);
-      /* or 60px */
-
-
-      color: #282828;
-      margin-bottom: toRem(48);
-      position: relative;
-      align-self: flex-start;
-
-      img {
-        position: absolute;
-        top: 0;
-        left: 105%;
-      }
-    }
-
-    .suits_block {
-      display: flex;
-      justify-content: space-between;
-
-      .col {
-        width: calc(50% - 0.938rem);
-      }
-    }
-  }
-
-
-  .results {
-    margin-bottom: toRem(90);
-
-    .title {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: normal;
-      font-size: toRem(48);
-      line-height: 124.7%;
-      /* or 60px */
-
-      text-align: center;
-
-      color: #282828;
-      margin-bottom: toRem(70);
-
-    }
-
-    .results_block {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-
-    .results_item {
-      display: flex;
-      align-items: flex-start;
-      width: calc((100% - 3.75rem)/3);
-
-      .number {
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: 800;
-        font-size: toRem(48);
-        line-height: 44%;
-        /* identical to box height, or 44% */
-
-        margin-right: toRem(20);
-        /* 2 clr */
-
-        color: #5ABBFF;
-      }
-    }
-  }
-
-
-  .inner_main.about {
-    background-image: url(public/products/about_bg.png);
-
-    .title {
-      font-weight: normal;
-      width: 50%;
-      font-size: toRem(60);
-      line-height: toRem(72);
-
-      color: #FFFFFF;
-      margin-bottom: toRem(30);
-
-    }
-
-    .subtitle {
-      width: 50%;
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: normal;
-      font-size: toRem(16);
-      line-height: toRem(22);
-      /* or 137% */
-
-
-      color: #FFFFFF;
-    }
-
-    .container {
-      min-height: toRem(450);
-    }
-
-
-
-
-  }
-
-  .cv {
-    margin-bottom: toRem(115);
-
-    .title {
-      font-family: TT Norms Pro;
-      font-style: normal;
-
-      font-size: toRem(36);
-      line-height: toRem(48);
-      /* or 133% */
-
-      text-align: center;
-
-      /* 1 clr */
-
-
-
-      width: 70%;
-      margin: auto;
-      margin-bottom: toRem(90);
-    }
-
-    .link_block {
-      display: flex;
-      background: linear-gradient(121.24deg, #0099FF 0%, #5ABBFF 99.99%, #5BBCFF 100%);
-      border-radius: 8px;
-      position: relative;
-      min-height: toRem(180);
-      align-items: center;
-      padding-left: toRem(90);
-
-      .link_block_img {
-        position: absolute;
-        right: toRem(65);
-        z-index: 0;
-        width: toRem(350);
-
-      }
-
-      .block_sign {
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: toRem(36);
-        line-height: toRem(44);
-        /* or 122% */
-
-        width: 24%;
-        color: #FFFFFF;
-        margin-right: toRem(60);
-      }
-
-      .button_call {
-
-        margin-right: toRem(15);
-        z-index: 1;
-      }
-
-
-    }
-  }
-
-  .innumbers {
-    margin-bottom: toRem(100);
-
-    .container {
-      display: flex;
-      justify-content: space-between;
-
-      .title {
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: toRem(36);
-        line-height: 161%;
-        /* or 161% */
-
-
-        color: #000000;
-
-      }
-
-      .innumber_item {
-        .number {
-
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: bold;
-          font-size: toRem(60);
-          line-height: toRem(48);
-          color: #0099FF;
-        }
-
-        .innumber_text {
-          font-family: TT Norms Pro;
-          font-style: normal;
-
-          font-size: toRem(18);
-          line-height: toRem(30);
-        }
-      }
-    }
-  }
-
-  .preview {
-    margin-bottom: toRem(60);
-
-    .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-
-      .sign {
-        background: linear-gradient(121.24deg, #118fe7, #5bbcff);
-        width: toRem(160);
-        border-radius: 6px;
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 1.125rem;
-        line-height: 118.7%;
-        text-align: center;
-        color: #fff;
-        margin-bottom: 0.9375rem;
-        transform: skew(-15deg);
-        padding: 0.4375rem 0.9375rem;
-
-        div {
-          transform: skew(15deg);
-        }
-      }
-
-      .title_second {
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: bold;
-        font-size: toRem(48);
-        line-height: 124.7%;
-
-
-        color: #282828;
-
-        img {
-          display: inline;
-        }
-
-        margin-bottom: toRem(24);
-      }
-
-      .title {
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: toRem(60);
-        line-height: toRem(72);
-        margin-bottom: toRem(20);
-
-        /* 4 */
-
-        color: #282828;
-      }
-
-      .left_part {
-        width: 50%;
-
-      }
-
-      .right_part {
-        width: 50%;
-
-        img {
-          object-fit: cover;
-          object-position: center;
-          border-radius: 12px;
-
-        }
-      }
-
-      ul {
-        list-style-image: url(public/products/check_circl.svg);
-        // padding-left: toRem(15);
-        padding-left: 20px;
-      }
-    }
-  }
-
-
-
-  .posts {
-    margin-bottom: toRem(80);
-
-    .title {
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: normal;
-      font-size: toRem(48);
-      line-height: 124.7%;
-      /* identical to box height, or 60px */
-      margin-bottom: toRem(70);
-      text-align: center;
-
-      color: #282828;
-    }
-
-    .posts_block {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-
-      .posts_item {
-        width: calc((100% - 5.625rem)/4);
-      }
-    }
-  }
-
-
-  .map_section {
-    margin-bottom: toRem(100);
-
-    .container {
-      display: flex;
-      justify-content: space-between;
-
-      .left_part {
-        display: flex;
-        flex-direction: column;
-
-        .title {
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: bold;
-          font-size: toRem(48);
-          line-height: 150%;
-          margin-bottom: toRem(30);
-          /* or 150% */
-
-
-          /* black */
-
-          color: #282828;
-        }
-      }
-
-      .map {
-        width: 48%;
-        border-radius: 8px;
-        overflow: hidden;
-      }
-
-      .map_left_row {
-        display: flex;
-        align-items: center;
-        margin-bottom: toRem(36);
-
-      }
-
-      .img_block {
-        border-radius: 120%;
-        background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
-        width: toRem(64);
-        height: toRem(64);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        svg {
-          fill: #fff;
-        }
-
-        margin-right: toRem(24);
-      }
-
-      .name {
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: bold;
-        font-size: toRem(24);
-        line-height: 100%;
-        /* or 100% */
-        margin-bottom: toRem(4);
-
-        color: #000000;
-      }
-
-      .text,
-      .text a {
-
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: toRem(18);
-        line-height: 133%;
-        color: #000000;
-      }
-
-      .text a {
-        &:first-child {
-          margin-right: 10px;
-        }
-      }
-
-      .right_part {
-        // position: relative;
-        width: 17%;
-        border: 2px dashed #FCA04A;
-        // box-sizing: border-box;
-        border-radius: 24px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        padding-bottom: toRem(36);
-        padding-left: toRem(25);
-        padding-right: toRem(25);
-        text-align: center;
-
-        .top_img {
-          width: 18%;
-          transform: translateY(-2px);
-        }
-
-        .sub_sign {
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: normal;
-          font-size: (14);
-          line-height: 129%;
-          /* or 129% */
-
-
-          /* black */
-
-          color: #282828;
-
-        }
-
-        .comand {
-          background: #FFF3E1;
-          border-radius: 8px;
-          padding: toRem(8) toRem(20);
-          font-family: TT Norms Pro;
-          font-style: normal;
-          font-weight: bold;
-          font-size: toRem(18);
-          line-height: 167%;
-          /* or 167% */
-
-
-
-          color: #282828;
-        }
-      }
     }
 
   }
@@ -6009,268 +6540,4 @@
       width: 100%;
     }
 
-  }
-
-  .video_review {
-    margin-bottom: toRem(90);
-
-    .video_row {
-      margin-bottom: toRem(48);
-
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-
-      .video_block {
-        width: 35%;
-      }
-
-      .video_sign {
-        width: 55%;
-      }
-
-      .company {
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: bold;
-        font-size: toRem(30);
-        line-height: 140%;
-        /* identical to box height, or 240% */
-
-
-        color: #282828;
-        margin-bottom: toRem(10);
-      }
-
-      .name {
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: bold;
-        font-size: toRem(16);
-        line-height: 110%;
-        /* identical to box height, or 450% */
-
-
-        color: #282828;
-        margin-bottom: toRem(4);
-
-      }
-
-      .position {
-        margin-bottom: toRem(5);
-      }
-
-
-      .text {
-        font-family: TT Norms Pro;
-        font-style: normal;
-        font-weight: normal;
-        font-size: toRem(16);
-        line-height: toRem(22);
-        color: #7D7D7D;
-        position: relative;
-
-        &::before {
-          position: absolute;
-          content: url(public/products/coma.png);
-          top: 0;
-          left: -70px;
-        }
-      }
-    }
-
-    .video_block {
-      position: relative;
-
-      >img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-      }
-
-      .video_wrapper {
-        position: absolute;
-        top: calc(50% - 2.875rem);
-        left: calc(50% - 2.875rem);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        .contain_first {
-          background: rgba(255, 255, 255, 0.08);
-          backdrop-filter: blur(6px);
-          // padding: toRem(20);
-          border-radius: 120%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: toRem(250);
-          height: toRem(250);
-          padding: toRem(20);
-          animation: radio 4s linear infinite;
-          position: absolute;
-        
-
-        }
-
-        .contain_second {
-          border-radius: 120%;
-          background: rgba(255, 255, 255, 0.24);
-          backdrop-filter: blur(6px);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-
-          width: 100%;
-          height: 100%;
-          // animation: radio2 3s linear infinite;
-       
-        }
-        img{
-          width: toRem(92);
-          height: toRem(92);
-          z-index: 1;
-        }
-      }
-    }
-  }
-
-
-  @keyframes radio {
-    0% {
-      width: toRem(0);
-      height: toRem(0);
-    }
-
-    30% {
-      opacity: 1
-    }
-
-    80% {
-      opacity: .8
-    }
-
-    to {
-      width: toRem(250);
-      height: toRem(250);
-      opacity: 0
-    }
-  }
-
-  .review_blank{
-    margin-bottom: toRem(200);
-
-    .container{
-      background: #F8F8FA;
-      border-radius: 8px;
-      padding-top: toRem(80);
-      padding-bottom: toRem(80);
-      padding-left:  .9375rem;
-      padding-right:  .9375rem;
-      overflow: hidden;
-      
-    }
-    .swiper-wrapper{
-      // min-height: toRem(290);
-      img{
-        width: 100%;
-      }
-    
-    }
-
-    .swiper-button-prev {
-      left: -24px;
-    }
-
-    .swiper-button-next {
-      right: -24px;
-    }
-
-    .swiper-button-prev,
-    .swiper-button-next {
-      background-color: #3EAFFF;
-      border: 10px solid #FFFFFF;
-      border-radius: 120%;
-      width: toRem(48);
-      height: toRem(48);
-
-      &.swiper-button-disabled {
-        border: 10px solid #FFFFFF;
-        background-color: #D8D8D8;
-        opacity: 1;
-      }
-    }
-
-    .swiper {
-      overflow: visible;
-    }
-  }
-
-  @media screen and (max-width:900px) {
-      section.review_blank{
-        margin-bottom: 40px;
-        .container{
-          padding-top: 20px;
-          padding-bottom: 20px;
-        }
-
-      } 
-      section.video_review{
-        margin-bottom: 40px;
-        .video_row{
-          margin-bottom: 30px;
-          flex-direction: column;
-          .company {
-            font-size: 22px;
-          }
-          .video_block{
-            width: 100%;
-            height: 200px;
-            margin-bottom: 15px;
-
-          }
-          .video_sign {
-            width: 100%;
-          }
-          .text{
-            font-size: 14px;
-          }
-          .text:before{
-            height: 20px;
-            left: auto;
-            right: 0;
-            top: -40px;
-          }
-          .video_wrapper{
-            top: calc(50% - 35px);
-    left: calc(50% - 35px);
-            img{
-              width: 70px;
-              height: 70px;
-            }
-          } 
-        }
-      } 
-
-      @keyframes radio {
-        0% {
-          width: toRem(0);
-          height: toRem(0);
-        }
-    
-        30% {
-          opacity: 1
-        }
-    
-        80% {
-          opacity: .8
-        }
-    
-        to {
-          width: 190px;
-          height: 190px;
-          opacity: 0
-        }
-      }
   }
