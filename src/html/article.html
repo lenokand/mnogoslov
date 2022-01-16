@@ -421,7 +421,134 @@
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-   
+        <script type="text/javascript">
+            // 8 экран
+            var swiper_reviews = new Swiper(".swiper_reviews", {
+                spaceBetween: 30,
+                effect: "fade",
+                speed: 900,
+                autoHeight: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                autoplay: {
+                    delay: 9000,
+                },
+            });
+            // partners
+    
+            var partners_swiper = new Swiper(".partners_swiper", {
+                spaceBetween: 30,
+                // effect: "fade",
+                slidesPerView: 4,
+                speed: 900,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                autoplay: {
+                    delay: 9000,
+                },
+                breakpoints: {
+                    // when window width is >= 320px
+                    320: {
+                        slidesPerView: 2,
+    
+                    },
+                    // when window width is >= 480px
+                    700: {
+                        slidesPerView: 3,
+    
+                    },
+                    // when window width is >= 640px
+                    900: {
+                        slidesPerView: 4,
+    
+                    }
+                }
+            });
+            // prices
+    
+            var partners_swiper = new Swiper(".price_swiper", {
+                spaceBetween: 30,
+                // effect: "fade",
+                slidesPerView: 1,
+                speed: 900,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                autoplay: {
+                    delay: 9000,
+                },
+    
+            });
+            // case
+            // 8 экран
+            var case_swiper = new Swiper(".case_swiper", {
+                spaceBetween: 30,
+                // effect: "fade",
+                slidesPerView: 4,
+                speed: 900,
+                autoHeight: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                autoplay: {
+                    delay: 9000,
+                },
+                breakpoints: {
+                    // when window width is >= 320px
+                    320: {
+                        slidesPerView: 1,
+    
+                    },
+                    // when window width is >= 480px
+                    600: {
+                        slidesPerView: 2,
+    
+                    },
+                    // when window width is >= 640px
+                    900: {
+                        slidesPerView: 4,
+    
+                    }
+                }
+            });
+    
+    
+    
+    
+            function fontSize() {
+                if ($(window).width() < 900) {
+    
+                    $('html').css({
+                        fontSize: 16 + 'px'
+                    });
+                }
+    
+                if ($(window).width() > 900) {
+                    var width = 1920; // ширина, от которой идет отсчет
+                    var fontSize = 16; // минимальный размер шрифта
+                    var bodyWidth = $('html').width();
+                    var multiplier = bodyWidth / width;
+                    if ($('html').width() >= width) fontSize = Math.floor(fontSize * multiplier);
+                    if ($('html').width() < width) fontSize = Math.floor(fontSize * multiplier);
+                    $('html').css({
+                        fontSize: fontSize + 'px'
+                    });
+                }
+            }
+    
+            $(function () {
+                fontSize();
+            });
+            $(window).resize(function () {
+                fontSize();
+            });
+        </script>
 </body>
 
 </html>

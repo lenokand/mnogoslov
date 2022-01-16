@@ -4794,19 +4794,23 @@
 
   .inner_main.article {
     margin-bottom: toRem(180);
+
     .title {
       font-size: toRem(48);
       line-height: toRem(58);
       width: 50%;
     }
-    .container{
+
+    .container {
       position: relative;
     }
-    .title_wrapper{
-     
+
+    .title_wrapper {
+
       display: flex;
       justify-content: space-between;
-      .article_img{
+
+      .article_img {
         position: absolute;
         width: 45%;
         top: 0;
@@ -4818,9 +4822,124 @@
         // height: toRem(450);
       }
     }
-    
+
   }
+  .direction.service{
+    .subtitle{
+      font-family: TT Norms Pro;
+font-style: normal;
+font-weight: normal;
+font-size: toRem(24);
+line-height: 105%;
+/* or 200% */
+
+text-align: center;
+
+/* black */
+
+color: #282828;
+    }
+  }
+
+  .vacancy_section {
+    margin-bottom: toRem(100);
+    .vacancy_block {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      .vacancy_item {
+        display: flex;
+        flex-direction: column;
+        width: calc(50% - 0.938rem);
+
+        .position {
+          font-family: TT Norms Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: toRem(36);
+          line-height: 134.7%;
+          /* or 48px */
+          min-height: toRem(90);
+          /* 4 */
+          text-align: center;
+
+          /* 4 */
+          align-self: center;
+          color: #282828;
+          margin-bottom: toRem(66);
+        }
+        img{
+          align-self: center;
+          margin-bottom: toRem(14);
+        }
+        .title{
+          font-family: TT Norms Pro;
+font-style: normal;
+font-weight: bold;
+font-size: toRem(18);
+line-height: 160.7%;
+/* or 29px */
+
+
+
+color: #282828;
+
+        }
+        ul{
+          list-style-image: url(public/products/check_circl.svg);
+          padding-left: 1.25rem;
+        }
+
+
+
+      }
+    }
+  }
+
+
   @media screen and (max-width:900px) {
+    section.direction.service{
+      .subtitle{
+     
+        font-size: 19px;
+        line-height: 105%;
+        
+            }
+    }
+
+    section.vacancy_section {
+      margin-bottom: 40px;
+     
+      .vacancy_block {
+        flex-direction: column;
+        .vacancy_item{
+          width: 100%;
+        }
+        .vacancy_item{
+          margin-bottom: 30px;
+          .position{
+            margin-bottom: 5px;
+            min-height: auto;
+            font-size: 24px;
+            line-height: 25px;
+          }
+          img{
+            height: 150px;
+            margin-bottom: 0;
+            
+          }
+          .title{
+            font-size: 16px;
+          }
+          ul li{
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+
 
     .pagination {
       margin-top: 30px;
@@ -4865,18 +4984,21 @@
     }
 
 
-    section.inner_main.article{
+    section.inner_main.article {
       margin-bottom: 40px;
+
       .title_wrapper {
         flex-direction: column-reverse;
-        .title{
+
+        .title {
           width: 100%;
           font-size: 26px;
           line-height: 27px;
           align-self: center;
           text-align: center;
         }
-        .article_img{
+
+        .article_img {
           align-self: center;
           width: 40%;
           position: static;
@@ -4884,8 +5006,8 @@
           margin-bottom: 15px;
         }
       }
-    } 
-   
+    }
+
   }
 
   @media screen and (max-width:600px) {
@@ -4896,22 +5018,22 @@
     }
 
     section.inner_main.article .title_wrapper {
-    
-      .article_img{
-      
+
+      .article_img {
+
         width: 80%;
-      
+
       }
     }
   }
 
-  
 
-  
+
+
   @media screen and (max-width: 1200px) {
 
-    .block_clients .swiper-button-next,
-    .block_clients .swiper-button-prev {
+    section.block_clients .swiper-button-next,
+    section.block_clients .swiper-button-prev {
       width: 40px;
       height: 40px;
     }
@@ -5245,7 +5367,7 @@
     }
 
     section.commercial,
-    .callback {
+    section.callback {
       margin-bottom: 40px;
 
       .subtitle {
@@ -6040,7 +6162,7 @@
     }
 
     section.commercial form input,
-    .callback form input {
+    section.callback form input {
       margin-right: 0;
     }
 
@@ -6051,7 +6173,7 @@
     }
 
     section.commercial form label input.custom-checkbox,
-    .callback form label input.custom-checkbox {
+    section.callback form label input.custom-checkbox {
       width: 5px;
     }
 
@@ -6078,7 +6200,7 @@
     }
 
     section.commercial form .button_wrapper,
-    .callback form .button_wrapper {
+    section.callback form .button_wrapper {
       width: 70%;
       min-width: auto;
 
@@ -6088,7 +6210,7 @@
     }
 
     section.commercial form .form_img,
-    .callback form .form_img {
+    section.callback form .form_img {
       width: 42%;
     }
 
@@ -6156,11 +6278,11 @@
     }
   }
 
-  
+
   @media screen and (max-width: 420px) {
 
     section.commercial form,
-    .callback form {
+    section.callback form {
       input {
         width: 100%;
       }
@@ -6178,7 +6300,7 @@
   }
 
 
-  
+
   @media screen and (max-width:500px) {
 
     section.certified_partn .container {
@@ -6199,7 +6321,7 @@
   }
 
 
-  
+
   @media screen and (max-width:550px) {
 
     section.activity .activity_block .activity_item {
