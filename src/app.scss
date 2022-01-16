@@ -509,7 +509,7 @@
     .container {
       display: flex;
       align-items: center;
-
+      justify-content: space-between;
       .left_main {
         width: 50%;
         display: flex;
@@ -4824,20 +4824,56 @@
     }
 
   }
+  .seo_main.service{
+    #seo_main{
+      .item1{
+        top: -7.25rem!important;
+       
+      }
+      .item2{
+        left: -82px!important;
+        bottom: 1.6875rem!important;
+       
+      }
+      .item3{
+        width: 6.8125rem;
+        top: 16px!important;
+        left: -75px!important;
+      }
+      .item4{
+        // width: 6.8125rem;
+        top: -110px!important;
+        left: 42px!important;
+      }
+      .item5{
+        // width: 6.8125rem;
+        bottom: -10px!important;
+        right: 0!important;
+        left: auto!important;
+        top: auto!important;
+      }
+
+    } 
+
+    .container  .left_main{
+      width: 41%;
+    }
+  }
   .direction.service{
+ 
     .subtitle{
       font-family: TT Norms Pro;
-font-style: normal;
-font-weight: normal;
-font-size: toRem(24);
-line-height: 105%;
-/* or 200% */
+      font-style: normal;
+      font-weight: normal;
+      font-size: toRem(24);
+      line-height: 105%;
+      /* or 200% */
 
-text-align: center;
+      text-align: center;
 
-/* black */
+      /* black */
 
-color: #282828;
+      color: #282828;
     }
   }
 

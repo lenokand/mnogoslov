@@ -102,6 +102,11 @@ module.exports = {
             template: './src/html/article.html',
             inject: 'body'
         }),
+        new HtmlWebpackPlugin({
+            filename: 'case.html',
+            template: './src/html/case.html',
+            inject: 'body'
+        }),
 
     ],
     module: {
