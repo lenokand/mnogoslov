@@ -86,6 +86,11 @@ module.exports = {
             filename: 'service.html',
             template: './src/html/service.html',
             inject: 'body'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'portfolio.html',
+            template: './src/html/portfolio.html',
+            inject: 'body'
         })
     ],
     module: {
