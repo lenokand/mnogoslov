@@ -66,6 +66,26 @@ module.exports = {
             filename: 'about.html',
             template: './src/html/about.html',
             inject: 'body'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'review.html',
+            template: './src/html/review.html',
+            inject: 'body'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'vacancy.html',
+            template: './src/html/vacancy.html',
+            inject: 'body'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'contacts.html',
+            template: './src/html/contacts.html',
+            inject: 'body'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'service.html',
+            template: './src/html/service.html',
+            inject: 'body'
         })
     ],
     module: {

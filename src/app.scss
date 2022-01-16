@@ -5912,61 +5912,75 @@
       }
     }
 
-    section.posts{
+    section.posts {
       margin-bottom: 40px;
-      .title{
+
+      .title {
         font-size: 26px;
         margin-bottom: 30px;
-        
+
 
       }
-       .posts_block .posts_item{
+
+      .posts_block .posts_item {
         width: calc(25% - 10px);
       }
-    } 
-    section.map_section{
+    }
+
+    section.map_section {
       margin-bottom: 40px;
-      .container{
+
+      .container {
         flex-wrap: wrap;
+
         .left_part {
           width: 100%;
-          .title{
+
+          .title {
             font-size: 26px;
             margin-bottom: 30px;
           }
         }
-        .img_block{
+
+        .img_block {
           width: 45px;
           height: 45px;
-          svg{
+
+          svg {
             width: 35%;
           }
         }
-        .map_left_row{
+
+        .map_left_row {
           margin-bottom: 10px;
         }
-        .name{
+
+        .name {
           font-size: 18px;
         }
-        .text, .text a{
+
+        .text,
+        .text a {
           font-size: 16px;
         }
 
-        .map{
+        .map {
           width: 100%;
           margin-bottom: 15px;
           height: 220px;
         }
-        .right_part{
+
+        .right_part {
           width: 100%;
           padding: 10px;
           padding-top: 0;
-          .top_img{
+
+          .top_img {
             width: 30px;
           }
         }
       }
-      
+
     }
 
   }
@@ -5986,4 +6000,266 @@
       width: 100%;
     }
 
+  }
+
+  .video_review {
+    margin-bottom: toRem(90);
+
+    .video_row {
+      margin-bottom: toRem(48);
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .video_block {
+        width: 35%;
+      }
+
+      .video_sign {
+        width: 55%;
+      }
+
+      .company {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: toRem(30);
+        line-height: 140%;
+        /* identical to box height, or 240% */
+
+
+        color: #282828;
+        margin-bottom: toRem(10);
+      }
+
+      .name {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: toRem(16);
+        line-height: 110%;
+        /* identical to box height, or 450% */
+
+
+        color: #282828;
+        margin-bottom: toRem(4);
+
+      }
+
+      .position {
+        margin-bottom: toRem(5);
+      }
+
+
+      .text {
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: toRem(16);
+        line-height: toRem(22);
+        color: #7D7D7D;
+        position: relative;
+
+        &::before {
+          position: absolute;
+          content: url(public/products/coma.png);
+          top: 0;
+          left: -70px;
+        }
+      }
+    }
+
+    .video_block {
+      position: relative;
+
+      >img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .video_wrapper {
+        position: absolute;
+        top: calc(50% - 2.875rem);
+        left: calc(50% - 2.875rem);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .contain_first {
+          background: rgba(255, 255, 255, 0.08);
+          backdrop-filter: blur(6px);
+          // padding: toRem(20);
+          border-radius: 120%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: toRem(250);
+          height: toRem(250);
+          padding: toRem(20);
+          animation: radio 4s linear infinite;
+          position: absolute;
+        
+
+        }
+
+        .contain_second {
+          border-radius: 120%;
+          background: rgba(255, 255, 255, 0.24);
+          backdrop-filter: blur(6px);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 100%;
+          height: 100%;
+          // animation: radio2 3s linear infinite;
+       
+        }
+        img{
+          width: toRem(92);
+          height: toRem(92);
+          z-index: 1;
+        }
+      }
+    }
+  }
+
+
+  @keyframes radio {
+    0% {
+      width: toRem(0);
+      height: toRem(0);
+    }
+
+    30% {
+      opacity: 1
+    }
+
+    80% {
+      opacity: .8
+    }
+
+    to {
+      width: toRem(250);
+      height: toRem(250);
+      opacity: 0
+    }
+  }
+
+  .review_blank{
+    margin-bottom: toRem(200);
+
+    .container{
+      background: #F8F8FA;
+      border-radius: 8px;
+      padding-top: toRem(80);
+      padding-bottom: toRem(80);
+      padding-left:  .9375rem;
+      padding-right:  .9375rem;
+      overflow: hidden;
+      
+    }
+    .swiper-wrapper{
+      // min-height: toRem(290);
+      img{
+        width: 100%;
+      }
+    
+    }
+
+    .swiper-button-prev {
+      left: -24px;
+    }
+
+    .swiper-button-next {
+      right: -24px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      background-color: #3EAFFF;
+      border: 10px solid #FFFFFF;
+      border-radius: 120%;
+      width: toRem(48);
+      height: toRem(48);
+
+      &.swiper-button-disabled {
+        border: 10px solid #FFFFFF;
+        background-color: #D8D8D8;
+        opacity: 1;
+      }
+    }
+
+    .swiper {
+      overflow: visible;
+    }
+  }
+
+  @media screen and (max-width:900px) {
+      section.review_blank{
+        margin-bottom: 40px;
+        .container{
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+
+      } 
+      section.video_review{
+        margin-bottom: 40px;
+        .video_row{
+          margin-bottom: 30px;
+          flex-direction: column;
+          .company {
+            font-size: 22px;
+          }
+          .video_block{
+            width: 100%;
+            height: 200px;
+          }
+          .video_sign {
+            width: 100%;
+          }
+          .text{
+            font-size: 14px;
+          }
+          .text:before{
+            height: 20px;
+            left: auto;
+            right: 0;
+            top: -40px;
+          }
+          .video_wrapper{
+            top: calc(50% - 35px);
+    left: calc(50% - 35px);
+            img{
+              width: 70px;
+              height: 70px;
+            }
+          } 
+        }
+      } 
+
+      @keyframes radio {
+        0% {
+          width: toRem(0);
+          height: toRem(0);
+        }
+    
+        30% {
+          opacity: 1
+        }
+    
+        80% {
+          opacity: .8
+        }
+    
+        to {
+          width: 190px;
+          height: 190px;
+          opacity: 0
+        }
+      }
   }
