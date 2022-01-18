@@ -255,3 +255,89 @@ if(imgList.length > 0 ){
 
   )
 }
+
+
+
+// маска тел
+window.addEventListener("DOMContentLoaded", function () {
+  [].forEach.call(document.querySelectorAll('.tel'), function (input) {
+    var keyCode;
+
+    function mask(event) {
+      event.keyCode && (keyCode = event.keyCode);
+      var pos = this.selectionStart;
+      if (pos < 3) event.preventDefault();
+      var matrix = "+38 (___) ___ __ __",
+        i = 0,
+        def = matrix.replace(/\D/g, ""),
+        val = this.value.replace(/\D/g, ""),
+        new_value = matrix.replace(/[_\d]/g, function (a) {
+          return i < val.length ? val.charAt(i++) || def.charAt(i) : a
+        });
+      i = new_value.indexOf("_");
+      if (i != -1) {
+        i < 5 && (i = 3);
+        new_value = new_value.slice(0, i)
+      }
+      var reg = matrix.substr(0, this.value.length).replace(/_+/g,
+        function (a) {
+          return "\\d{1," + a.length + "}"
+        }).replace(/[+()]/g, "\\$&");
+      reg = new RegExp("^" + reg + "$");
+      if (!reg.test(this.value) || this.value.length < 5 || keyCode > 47 && keyCode < 58) this.value = new_value;
+      if (event.type == "blur" && this.value.length < 5) this.value = ""
+    }
+
+    input.addEventListener("input", mask, false);
+    input.addEventListener("focus", mask, false);
+    input.addEventListener("blur", mask, false);
+    input.addEventListener("keydown", mask, false)
+
+  });
+
+});
+
+
+// запрет перемещения мышкой модалки
+
+const filterGallary2 = Fancybox.bind('[href="#modal_callback"]', {
+  // closeButton: "top",
+  dragToClose: false,
+  // Thumbs: false,
+  // Carousel: {
+  //     Dots: false,
+  // },
+});
+
+
+
+
+
+
+// кнопка наверх
+
+    //  Get the button
+     let mybutton = document.getElementById("btn-back-to-top");
+
+     // When the user scrolls down 20px from the top of the document, show the button
+     window.onscroll = function () {
+       scrollFunction();
+     };
+     
+     function scrollFunction() {
+       if (
+         document.body.scrollTop > 20 ||
+         document.documentElement.scrollTop > 20
+       ) {
+         mybutton.style.display = "flex";
+       } else {
+         mybutton.style.display = "none";
+       }
+     }
+     // When the user clicks on the button, scroll to the top of the document
+     mybutton.addEventListener("click", backToTop);
+     
+     function backToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+     }
