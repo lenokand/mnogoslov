@@ -22,18 +22,23 @@ let body = document.body
 });
 
 
-let submenuBtn = document.querySelectorAll('.menu .open_submenu')
+let submenuBtn = document.querySelectorAll('.menu .item_menu > .item_wrapper > .open_submenu')
 
 submenuBtn.forEach((item, index) => {
   item.addEventListener('click', function(){
 
-    let submenu = document.querySelectorAll('.menu .submenu')
+    let submenu = document.querySelectorAll('.menu .item_menu > .submenu')
 
     
     if (item.classList.contains('active')){
       item.classList.remove('active')
       submenu[index].classList.remove('show')
-
+        let subMenu = document.querySelector('.menu .item_submenu .open_submenu.active')
+        let subMenuMenu = document.querySelector('.menu .item_submenu > .submenu.show')
+        if(subMenu){
+          subMenu.classList.remove('active')
+          subMenuMenu.classList.remove('show')
+        }
 
     } else {
 
@@ -50,6 +55,47 @@ submenuBtn.forEach((item, index) => {
   
       item.classList.add('active')
       submenu[index].classList.add('show')
+
+
+      let subMenu = document.querySelector('.menu .item_submenu .open_submenu.active')
+      let subMenuMenu = document.querySelector('.menu .item_submenu > .submenu.show')
+      if(subMenu){
+        subMenu.classList.remove('active')
+        subMenuMenu.classList.remove('show')
+      }
+    }
+
+  })
+
+})
+let subSubmenuBtn = document.querySelectorAll('.menu .item_submenu  .open_submenu')
+
+subSubmenuBtn.forEach((item, index) => {
+  item.addEventListener('click', function(){
+    // console.log(item);
+    let submenu = document.querySelectorAll('.menu .item_submenu > .submenu')
+
+    
+    if (item.classList.contains('active')){
+      item.classList.remove('active')
+      submenu[index].classList.remove('show')
+
+
+    } else {
+
+      let ac_menuBtn = document.querySelector('.menu .item_submenu .open_submenu.active')
+
+    
+
+      if (ac_menuBtn) {
+        ac_menuBtn.classList.remove('active')
+        let ac_submenu = document.querySelector('.menu .item_submenu > .submenu.show')
+        ac_submenu.classList.remove('show')
+      }
+  
+  
+      item.classList.add('active')
+      submenu[index].classList.add('show')
     }
 
   })
@@ -58,7 +104,11 @@ submenuBtn.forEach((item, index) => {
 
 
 var seo_main = document.getElementById('seo_main');
-var parallaxInstance = new Parallax(seo_main);
+if(seo_main){
+
+  var parallaxInstance = new Parallax(seo_main);
+}
+
 
 
 
@@ -165,7 +215,7 @@ if (arrSlides.length > 0) {
 
 
 // аккордион
-
+if( document.getElementById('accordion')){
 // JavaScript
 var accordion = (function (element) {
   var _getItem = function (elements, className) { // функция для получения элемента с указанным классом
@@ -229,7 +279,11 @@ var accordion = (function (element) {
 })();
 
 var accordion1 = accordion();
-accordion1.init('#accordion');
+accordion1.init('#accordion');        
+}
+
+
+
 
 
 
@@ -300,14 +354,18 @@ window.addEventListener("DOMContentLoaded", function () {
 
 // запрет перемещения мышкой модалки
 
-const filterGallary2 = Fancybox.bind('[href="#modal_callback"]', {
-  // closeButton: "top",
-  dragToClose: false,
-  // Thumbs: false,
-  // Carousel: {
-  //     Dots: false,
-  // },
-});
+
+if(document.querySelector('[href="#modal_callback"]')){
+  const filterGallary2 = Fancybox.bind('[href="#modal_callback"]', {
+    // closeButton: "top",
+    dragToClose: false,
+    // Thumbs: false,
+    // Carousel: {
+    //     Dots: false,
+    // },
+  });
+  
+}
 
 
 

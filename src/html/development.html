@@ -9,6 +9,7 @@
     <meta name="robots" content="noindex, nofollow" />
     <link rel="icon" type="image/x-icon" sizes="16x16" href="icons/favicon.ico">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="lib/fancybox.css" />
     <link rel="stylesheet" href="bundle.css">
 </head>
 
@@ -51,7 +52,7 @@
                 <span>
                     меню
                 </span>
-
+                
                 <div class="burger-icon  nav-icon-5">
                     <span></span>
                     <span></span>
@@ -94,7 +95,23 @@
                                     <a href="development.html">Создание сайтов</a>
                                     <a href="index.html">SEO продвижение</a>
                                     <a href="context.html">Контекстная реклама</a>
-                                    <a href="smm.html">SMM продвижение</a>
+                                   
+                                    <div class="item_submenu">
+                                        <div class="item_wrapper">
+                                            <a href="smm.html">SMM продвижение</a>
+                                            <div class="open_submenu "> <span class="plus">+</span> <span class="minus">-</span>
+                                            </div>
+                                        </div>
+        
+                                        <div class="submenu ">
+                                            <a href="insta.html">Instagram</a>
+                                            <a href="facebook.html">Facebook</a>
+                                           
+        
+                                            
+                                        </div>
+                                    </div>
+                                    
                                 </div>
                             </div>
                             <div class="item_menu">
@@ -124,13 +141,13 @@
                             </div>
                             <div class="item_menu">
                                 <div class="item_wrapper">
-                                    <a href=""> Вакансии </a>
+                                    <a href="vacancy.html"> Вакансии </a>
                                 </div>
 
                             </div>
                             <div class="item_menu">
                                 <div class="item_wrapper">
-                                    <a href=""> Новости </a>
+                                    <a href="blog.html"> Новости </a>
                                 </div>
 
                             </div>
@@ -180,7 +197,7 @@
                     </span>
 
                 </div>
-                <a href="" class="button_call"><span>Обсудить мой проект</span> </a>
+                <a href="#modal_callback" data-fancybox="" data-touch="false"  class="button_call"><span>Обсудить мой проект</span> </a>
             </div>
             <div class="right_main" id="seo_main" data-relative-input="true">
 
@@ -452,7 +469,7 @@
 
                     </ul>
                     <img src="products/offer_pc1.png" alt="">
-                    <a href="" class="button_call">
+                    <a href="#modal_callback" data-fancybox data-touch="false" class="button_call">
                         Узнать цену
                     </a>
                 </div>
@@ -483,7 +500,7 @@
 
                     </ul>
                     <img src="products/offer_pc2.png" alt="">
-                    <a href="" class="button_call">
+                    <a href="#modal_callback" data-fancybox data-touch="false" class="button_call">
                         Узнать цену
                     </a>
                 </div>
@@ -513,7 +530,7 @@
 
                     </ul>
                     <img src="products/offer_pc3.png" alt="">
-                    <a href="" class="button_call">
+                    <a href="#modal_callback" data-fancybox data-touch="false" class="button_call">
                         Узнать цену
                     </a>
                 </div>
@@ -1688,14 +1705,23 @@
         </div>
 
 
+        <script src="lib/parallax.min.js"></script>
 
+        <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
+        <script src="lib/swiper-bundle.min.js"></script>
+        
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+            <!-- <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script> -->
+            <script src="lib/jquery-3.6.0.min.js"></script>
+            <script src="lib/fancybox.umd.js"></script>
 
-
+<!-- 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
     <script type="text/javascript">
         // 8 экран
         var swiper_reviews = new Swiper(".swiper_reviews", {

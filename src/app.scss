@@ -112,8 +112,8 @@
     }
 
     section.review_blank .container{
-padding-left: 20px;
-padding-right: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
     }
     section.review_blank .swiper-button-next, section.review_blank .swiper-button-prev{
       width: 20px;
@@ -127,7 +127,10 @@ padding-right: 20px;
       max-width: 90%;
       max-height: 90%;
     }
-
+    .block_clients .swiper-button-prev,
+    .block_clients  .swiper-button-next {
+      border-width: 4px ;
+    }
 
     section .swiper-button-next, section .swiper-button-prev{
       border-width: 4px ;
@@ -235,7 +238,8 @@ padding-right: 20px;
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: toRem(18);
+      // font-size: toRem(18);
+      font-size: 18px;
       line-height: toRem(22);
 
 
@@ -354,7 +358,16 @@ padding-right: 20px;
             }
           }
         }
-
+        .item_submenu {
+          flex-direction: column;
+          .open_submenu{
+            font-size: 5rem;
+            line-height: 2rem;
+            width: 41%;
+          }
+        }
+        
+        .item_submenu, 
         a {
           display: flex;
           // width: 50%;
@@ -431,8 +444,9 @@ padding-right: 20px;
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: normal;
-      font-size: toRem(12);
-      line-height: toRem(14);
+      // font-size: toRem(12);
+      font-size: 12px;
+      line-height: 118%;
       /* identical to box height, or 117% */
 
 
@@ -466,8 +480,8 @@ padding-right: 20px;
     font-family: TT Norms Pro;
     font-style: normal;
     font-weight: bold;
-    font-size: toRem(16);
-    line-height: toRem(19);
+    font-size: 16px;
+    line-height: 120%;
     border: none;
     outline: none;
     color: #FFFFFF;
@@ -569,8 +583,9 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: toRem(16);
-        line-height: toRem(22);
+        
+        font-size: 16px;
+        line-height: 140%;
         /* or 137% */
 
 
@@ -634,7 +649,8 @@ padding-right: 20px;
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: 500;
-      font-size: toRem(18);
+      // font-size: toRem(18);
+      font-size: 18px;
       line-height: 118.7%;
       /* or toRem(21) */
 
@@ -663,7 +679,7 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: toRem(16);
+        font-size: 16px;
         line-height: 160.7%;
         /* identical to box height, or toRem(26) */
 
@@ -690,7 +706,8 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: bold;
-          font-size: toRem(18);
+          // font-size: toRem(18);
+          font-size: 18px;
           line-height: 118.7%;
           /* or 21px */
 
@@ -711,8 +728,8 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: normal;
-          font-size: toRem(16);
-          line-height: toRem(24);
+          font-size: 16px;
+          line-height: 150%;
           /* or 150% */
 
 
@@ -798,8 +815,8 @@ padding-right: 20px;
     font-family: TT Norms Pro;
     font-style: normal;
     // font-weight: bold;
-    font-size: toRem(16);
-    line-height: toRem(22);
+    font-size: 16px;
+    line-height: 137%;
     /* or 137% */
 
 
@@ -816,8 +833,8 @@ padding-right: 20px;
     font-family: TT Norms Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: toRem(16);
-    line-height: toRem(24);
+    font-size: 16px;
+    line-height: 150%;
     /* or 150% */
 
 
@@ -831,8 +848,8 @@ padding-right: 20px;
     font-family: TT Norms Pro;
     font-style: normal;
     font-weight: bold;
-    font-size: toRem(16);
-    line-height: toRem(19);
+    font-size: 16px;
+    line-height: 140%;
 
     color: #FFFFFF;
     padding: toRem(21) toRem(54);
@@ -1082,8 +1099,8 @@ padding-right: 20px;
               font-family: TT Norms Pro;
               font-style: normal;
               // font-weight: bold;
-              font-size: toRem(16);
-              line-height: toRem(28);
+              font-size: 16px;
+              line-height: 175%;
               /* or 175% */
 
 
@@ -1100,6 +1117,7 @@ padding-right: 20px;
     }
   }
 
+ 
   .seo_guarantee {
     background-image: url(public/products/spec_fon.png);
     background-repeat: no-repeat;
@@ -1123,6 +1141,9 @@ padding-right: 20px;
 
 
         color: #282828;
+      }
+      .text_part{
+        font-size: 14px;
       }
 
       .subtitle {
@@ -1155,7 +1176,8 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: 500;
-          font-size: toRem(18);
+          // font-size: toRem(18);
+          font-size: 18px;
           line-height: toRem(28);
           /* or 156% */
 
@@ -1171,8 +1193,8 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: normal;
-          font-size: toRem(14);
-          line-height: toRem(28);
+          font-size: 14px;
+          line-height: 150%;
           /* or 200% */
 
           text-align: center;
@@ -1258,7 +1280,7 @@ padding-right: 20px;
 
     .number_question {
       font-style: normal;
-      font-size: toRem(12);
+      font-size: 12px;
       line-height: 124.7%;
       text-align: center;
       color: #000000;
@@ -1424,7 +1446,7 @@ padding-right: 20px;
 
       font-style: normal;
       font-weight: 500;
-      font-size: toRem(14);
+      font-size: 14px;
       line-height: 160%;
       color: #000000;
       align-self: center;
@@ -1466,8 +1488,8 @@ padding-right: 20px;
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: toRem(16);
-      line-height: toRem(19);
+      font-size: 16px;
+      line-height: 140%;
       text-align: center;
 
       color: #FFFFFF;
@@ -1490,7 +1512,7 @@ padding-right: 20px;
 
     .questions {
       font-weight: bold;
-      font-size: toRem(14);
+      font-size: 14px;
       line-height: 160%;
       text-align: center;
       color: #000000;
@@ -1560,7 +1582,7 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: bold;
-        font-size: toRem(16);
+        font-size: 16px;
         line-height: 160%;
         /* or toRem(26) */
 
@@ -1573,8 +1595,8 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: toRem(12);
-        line-height: toRem(16);
+        font-size: 12px;
+        line-height: 133%;
         /* or 133% */
 
         text-align: center;
@@ -1597,8 +1619,10 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: toRem(14);
-        line-height: toRem(18);
+        
+        font-size: 14px;
+        // line-height: toRem(18);
+        line-height: 18px;
         /* or 129% */
 
         text-align: center;
@@ -1690,6 +1714,10 @@ padding-right: 20px;
         &:hover {
           border: 6px solid #efeff0;
         }
+        img{
+          max-width: 90%;
+          max-height: 90%;
+        }
       }
     }
   }
@@ -1772,8 +1800,8 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: bold;
-        font-size: toRem(16);
-        line-height: toRem(48);
+        font-size: 16px;
+        line-height: 300%;
 
         &:hover {
           text-decoration: underline;
@@ -1809,7 +1837,7 @@ padding-right: 20px;
       font-family: TT Norms Pro;
       font-style: normal;
       // font-weight: bold;
-      font-size: toRem(16);
+      font-size: 16px;
       line-height: 160.7%;
       /* or toRem(26) */
 
@@ -1818,10 +1846,10 @@ padding-right: 20px;
     }
 
     li {
-      font-size: toRem(16);
+      font-size: 16px;
       // line-height: toRem(22);
       // font-size: 16px;
-      line-height: toRem(30);
+      line-height: 160.7%;
     }
 
     ol {
@@ -1858,7 +1886,7 @@ padding-right: 20px;
     .container {
       overflow: hidden;
       // max-width: 1434px;
-      padding: 0 toRem(15);
+      padding: 0 15px;
 
     }
 
@@ -1877,7 +1905,8 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: toRem(18);
+        // font-size: toRem(18);
+        font-size: 18px;
         line-height: 133%;
         /* or 133% */
 
@@ -1924,7 +1953,9 @@ padding-right: 20px;
 
   .faq {
     margin-bottom: toRem(90);
-
+    .accordion-item-content{
+      font-size: 14px;
+    }
     .title {
       font-family: TT Norms Pro;
       font-style: normal;
@@ -1967,7 +1998,7 @@ padding-right: 20px;
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: toRem(16);
+      font-size: 16px;
       line-height: 137%;
       /* or 137% */
       padding-right: 15px;
@@ -2086,6 +2117,7 @@ padding-right: 20px;
         right: 0;
         bottom: toRem(-95);
         height: toRem(435);
+        width: 16rem;
       }
 
       a {
@@ -2093,7 +2125,8 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: 500;
-        font-size: toRem(10);
+        // font-size: toRem(10);
+        font-size: 10px;
         line-height: 124.7%;
         /* or 12px */
 
@@ -2109,7 +2142,8 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: 500;
-        font-size: toRem(10);
+        // font-size: toRem(10);
+        font-size: 10px;
         line-height: 124.7%;
         /* or 12px */
 
@@ -2210,7 +2244,7 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: normal;
-          font-size: toRem(16);
+          font-size: 16px;
           line-height: 87%;
           /* or 87% */
 
@@ -2255,8 +2289,8 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: bold;
-          font-size: toRem(16);
-          line-height: toRem(14);
+          font-size: 16px;
+          line-height: 90%;
           color: #5ABBFF;
           margin-bottom: toRem(24);
         }
@@ -2265,8 +2299,8 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: normal;
-          font-size: toRem(16);
-          line-height: toRem(14);
+          font-size: 16px;
+          line-height: 87%;
           /* identical to box height, or 87% */
           margin-bottom: toRem(24);
 
@@ -2282,8 +2316,8 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: normal;
-          font-size: toRem(16);
-          line-height: toRem(22);
+          font-size: 16px;
+          line-height: 120%;
           /* identical to box height, or 87% */
           margin-bottom: toRem(24);
 
@@ -2306,7 +2340,7 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: toRem(12);
+        font-size: 12px;
         line-height: 117%;
         /* identical to box height, or 117% */
 
@@ -2323,7 +2357,7 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: normal;
-          font-size: toRem(12);
+          font-size: 12px;
           line-height: 117%;
           /* identical to box height, or 117% */
 
@@ -2448,7 +2482,7 @@ padding-right: 20px;
             font-family: TT Norms Pro;
             font-style: normal;
             font-weight: bold;
-            font-size: toRem(16);
+            font-size: 16px;
             line-height: 150%;
             margin-bottom: 0;
             /* identical to box height, or 450% */
@@ -2471,8 +2505,8 @@ padding-right: 20px;
             font-family: TT Norms Pro;
             font-style: normal;
             font-weight: normal;
-            font-size: toRem(16);
-            line-height: toRem(22);
+            font-size: 16px;
+            line-height: 140%;
             color: #7D7D7D;
             position: relative;
 
@@ -2566,8 +2600,8 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: normal;
-          font-size: toRem(16);
-          line-height: toRem(19);
+          font-size: 16px;
+          line-height: 110%;
           text-align: center;
 
           color: #282828;
@@ -2587,6 +2621,7 @@ padding-right: 20px;
 
         img {
           margin-right: toRem(15);
+          width: 50%;
         }
       }
     }
@@ -2613,6 +2648,9 @@ padding-right: 20px;
         width: toRem(280);
       }
     }
+    .container .swiper-slide img{
+      width: auto;
+    }
   }
 
   .gallery-third {
@@ -2636,6 +2674,9 @@ padding-right: 20px;
       .button_call {
         width: toRem(280);
       }
+    }
+    .container .swiper-slide img{
+      width: auto;
     }
   }
 
@@ -2662,7 +2703,13 @@ padding-right: 20px;
       overflow: visible;
     }
 
-    .case_swiper {}
+    .case_swiper {
+      .swiper-wrapper{
+        display: flex;
+        align-items: stretch;
+        height: 750px;
+      }
+    }
 
     margin-bottom: toRem(75);
 
@@ -2679,7 +2726,8 @@ padding-right: 20px;
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: 500;
-      font-size: toRem(18);
+      // font-size: toRem(18);
+      font-size: 18px;
       line-height: 118.7%;
       /* or toRem(21) */
 
@@ -2745,7 +2793,7 @@ padding-right: 20px;
 
       .profile {
         font-weight: 400;
-        font-size: toRem(16);
+        font-size: 16px;
         line-height: 160.7%;
         color: #fff;
       }
@@ -2777,7 +2825,7 @@ padding-right: 20px;
       .row_bottom .number,
       .row_bottom .text {
         font-weight: 700;
-        font-size: toRem(16);
+        font-size: 16px;
         line-height: 124.7%;
         color: #fff;
       }
@@ -3220,7 +3268,8 @@ padding-right: 20px;
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: 500;
-      font-size: toRem(18);
+      // font-size: toRem(18);
+      font-size: 18px;
       line-height: 118.7%;
       /* or toRem(21) */
 
@@ -3353,8 +3402,8 @@ padding-right: 20px;
             font-family: TT Norms Pro;
             font-style: normal;
             font-weight: normal;
-            font-size: toRem(16);
-            line-height: toRem(24);
+            font-size: 16px;
+            line-height: 150%;
             /* identical to box height, or 300% */
 
 
@@ -3366,8 +3415,8 @@ padding-right: 20px;
             font-family: TT Norms Pro;
             font-style: normal;
             font-weight: bold;
-            font-size: toRem(16);
-            line-height: toRem(24);
+            font-size: 16px;
+            line-height: 150%;
             /* or 300% */
             width: 100%;
             display: flex;
@@ -3722,8 +3771,8 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: normal;
-          font-size: toRem(16);
-          line-height: toRem(22);
+          font-size: 16px;
+          line-height: 137%;
           /* or 137% */
 
 
@@ -3787,8 +3836,9 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: toRem(14);
-        line-height: toRem(17);
+        font-size: 14px;
+        // line-height: toRem(17);
+        line-height: 120%;
         text-decoration-line: underline;
 
         color: #FFFFFF;
@@ -4035,8 +4085,9 @@ padding-right: 20px;
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: normal;
-      font-size: toRem(16);
-      line-height: toRem(22);
+     
+      font-size: 16px;
+      line-height: 137%;
       /* or 137% */
 
 
@@ -4149,7 +4200,8 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
 
-          font-size: toRem(18);
+          // font-size: toRem(18);
+          font-size: 18px;
           line-height: toRem(30);
         }
       }
@@ -4279,7 +4331,7 @@ padding-right: 20px;
       .left_part {
         display: flex;
         flex-direction: column;
-
+        width: 31%;
         .title {
           font-family: TT Norms Pro;
           font-style: normal;
@@ -4313,6 +4365,8 @@ padding-right: 20px;
         border-radius: 120%;
         background: linear-gradient(93.17deg, #EE6E54 0%, #FCA04A 100%);
         width: toRem(64);
+        max-width: toRem(64);
+        flex-grow: 1;
         height: toRem(64);
         display: flex;
         align-items: center;
@@ -4343,14 +4397,16 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: toRem(18);
+        // font-size: toRem(18);
+        font-size: 18px;
         line-height: 133%;
         color: #000000;
       }
 
       .text a {
+        display: block;
         &:first-child {
-          margin-right: 10px;
+          margin-bottom: 10px;
         }
       }
 
@@ -4378,7 +4434,7 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: normal;
-          font-size: (14);
+          font-size: 14px;
           line-height: 129%;
           /* or 129% */
 
@@ -4396,7 +4452,8 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: bold;
-          font-size: toRem(18);
+          // font-size: toRem(18);
+          font-size: 18px;
           line-height: 167%;
           /* or 167% */
 
@@ -4446,7 +4503,7 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: bold;
-        font-size: toRem(16);
+        font-size: 16px;
         line-height: 110%;
         /* identical to box height, or 450% */
 
@@ -4465,8 +4522,8 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: toRem(16);
-        line-height: toRem(22);
+        font-size: 16px;
+        line-height: 130%;
         color: #7D7D7D;
         position: relative;
 
@@ -4723,7 +4780,7 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: bold;
-        font-size: toRem(16);
+        font-size: 16px;
         line-height: 131%;
         /* identical to box height, or 131% */
 
@@ -4737,7 +4794,7 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: toRem(16);
+        font-size: 16px;
         line-height: 131%;
         /* identical to box height, or 131% */
 
@@ -4766,7 +4823,7 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: bold;
-        font-size: toRem(16);
+        font-size: 16px;
         line-height: 131%;
         /* identical to box height, or 131% */
 
@@ -4797,7 +4854,7 @@ padding-right: 20px;
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: toRem(16);
+      font-size: 16px;
       line-height: 131%;
       /* or 131% */
 
@@ -5058,8 +5115,8 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: normal;
-        font-size: toRem(16);
-        line-height: toRem(24);
+        font-size: 16px;
+        line-height: 131%;
         /* identical to box height, or 300% */
 
 
@@ -5071,8 +5128,8 @@ padding-right: 20px;
         font-family: TT Norms Pro;
         font-style: normal;
         font-weight: bold;
-        font-size: toRem(16);
-        line-height: toRem(24);
+        font-size: 16px;;
+        line-height: 131%;
         /* or 300% */
         width: 100%;
         display: flex;
@@ -5141,7 +5198,8 @@ padding-right: 20px;
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: bold;
-          font-size: toRem(18);
+          // font-size: toRem(18);
+          font-size: 18px;
           line-height: 160.7%;
           /* or 29px */
 
@@ -5285,6 +5343,44 @@ padding-right: 20px;
 
 
 
+  @media screen and (max-width: 1400px) {
+    footer .top_row .logo_col .footer_logo .logo_sign{
+      font-size: 10px;
+    }
+    footer .top_row{
+      flex-wrap: wrap;
+    }
+    footer .top_row .menu_col .adress_item{
+      max-width: 40%;
+      line-height: 130%;
+    }
+    .review_blank .container{
+      padding: 5rem 15px;
+    }
+    .block_clients .swiper-button-next, .block_clients .swiper-button-prev, .block_clients .swiper-button-next.swiper-button-disabled, .block_clients .swiper-button-prev.swiper-button-disabled{
+      border-width: 4px;
+    }
+    section .swiper-button-next,
+    section .swiper-button-prev, section .swiper-button-next.swiper-button-disabled, section .swiper-button-prev.swiper-button-disabled {
+      border-width: 4px;
+    }
+    .case {
+     
+  
+    
+  
+      .case_swiper {
+        .swiper-wrapper{
+          display: flex;
+          align-items: stretch;
+          height: 600px;
+        }
+      }
+    }
+
+
+
+  }
   @media screen and (max-width: 1200px) {
 
     section.block_clients .swiper-button-next,
@@ -5292,7 +5388,22 @@ padding-right: 20px;
       width: 40px;
       height: 40px;
     }
-
+    .block_clients .swiper-button-next, .block_clients .swiper-button-prev{
+      border-width: 4px;
+    }
+    section.callback form{
+      height: 130px;
+      input{
+        width: 160px;
+        &::placeholder{
+          font-size: 16px;
+        }
+        height: 50px;
+      }
+      .button_call{
+        height: 50px;
+      }
+    }
   }
 
 
@@ -5300,7 +5411,11 @@ padding-right: 20px;
     header {
       align-items: flex-start;
     }
-
+    div#btn-back-to-top{
+      width: 40px;
+      height: 40px;
+      right: 12%;
+    }
     .menu_block .bottom_row .copiright {
       font-size: 12px;
     }
