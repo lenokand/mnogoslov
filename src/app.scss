@@ -97,6 +97,9 @@
     margin-bottom: 0;
 
   }
+ .swiper-button-next,  .swiper-button-prev{
+    box-sizing: content-box;
+  }
 
   @media screen and (max-width:1200px) {
     .container {
@@ -1119,16 +1122,18 @@
 
  
   .seo_guarantee {
-    background-image: url(public/products/spec_fon.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
+
+   
     background-size: cover;
     margin-bottom: toRem(100);
 
     .container {
+      background-image: url(public/products/spec_fon.png);
+      background-repeat: no-repeat;
+      background-position: bottom;
       display: flex;
       align-items: flex-end;
-
+      border-radius: 8px;
       .title {
 
         font-family: TT Norms Pro;
@@ -1547,9 +1552,10 @@
     .left_part {
       background: #F8F8FA;
       border-radius: 8px;
-      background-image: url('public/products/seo_quiz2.png');
+      // background-image: url('public/products/seo_quiz2.png');
+      background-image: url('public/products/quiz_bg1.png'), url('public/products/quiz_bg2.png');
       background-repeat: no-repeat;
-      background-position: bottom;
+      background-position: 0 100%, 100% 0%;
       background-size: contain;
       padding: toRem(26) toRem(32);
 
@@ -2104,6 +2110,7 @@
         border: none;
         outline: none;
         margin-right: toRem(10);
+        height: toRem(64);
       }
 
       .button_wrapper {
@@ -2111,13 +2118,20 @@
         align-items: center;
         flex-direction: column;
       }
+      button{
+        width: toRem(270);
+        height: toRem(64);
+        z-index: 1;
+      }
 
       .form_img {
         position: absolute;
         right: 0;
         bottom: toRem(-95);
         height: toRem(435);
-        width: 16rem;
+        // width: 16rem;
+        width: toRem(330);
+        z-index: 0;
       }
 
       a {
@@ -2832,7 +2846,7 @@
     }
   }
 
-  .seo_methods .compared_block .compared_spec .right_part {
+  .smm_methods .compared_block .compared_spec .right_part {
     background-image: url(public/products/smm_compear.png);
   }
 
@@ -4352,6 +4366,7 @@
         width: 48%;
         border-radius: 8px;
         overflow: hidden;
+        border: 4px solid #DFDFDF;
       }
 
       .map_left_row {
@@ -4443,6 +4458,9 @@
 
           color: #282828;
 
+        }
+        .sign{
+          font-size: 18px;
         }
 
         .comand {
@@ -5382,7 +5400,28 @@
 
   }
   @media screen and (max-width: 1200px) {
-
+    .quiz .left_part .left_title{
+      font-size: 14px;
+    }
+    .quiz .left_part{
+      padding: 40px 15px;
+    }
+    section.faq .accordion {
+      flex-direction: column;
+      .col{
+        width: 100%;
+        margin-bottom: 1.0625rem;
+      }
+    }
+    .seo_guarantee .container .subtitle{
+      font-size: 14px;
+    }
+    .seo_guarantee .container .guarantee_block .check_circle svg{
+      max-width: 60%;
+    }
+    .seo_guarantee .container .img_block_info .name{
+      padding:5px 9px;
+    }
     section.block_clients .swiper-button-next,
     section.block_clients .swiper-button-prev {
       width: 40px;
@@ -7277,3 +7316,27 @@
       transform: rotate(-90deg);
     }
   }
+  .lang_block{
+    display: flex;
+    align-items: center;
+    .lang_line{
+      background: #C9C9C9;
+      width: 2px;
+      height: 24px;
+      margin-right: 8px;
+      margin-left: 8px;
+    }
+    a{
+      font-family: TT Norms Pro;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #C9C9C9;
+&.active{
+  color: #282828;
+}
+    }
+  }
+
