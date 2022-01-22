@@ -4695,6 +4695,12 @@
       }
 
     }
+    header .phone{
+      margin-bottom: 15px;
+    }
+    header .lang_block{
+      padding-left: 10px;
+    }
 
     section.video_review {
       margin-bottom: 40px;
@@ -6573,7 +6579,9 @@
       margin-left: 0;
 
     }
-
+    header .lang_block{
+      padding-left: 0px;
+    }
     section.offers {
 
       .offers_block .offers_item {
@@ -7340,3 +7348,8 @@ color: #C9C9C9;
     }
   }
 
+header .phone{
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
