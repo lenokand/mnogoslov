@@ -2412,6 +2412,7 @@
       position: absolute;
       bottom: 0;
       top: toRem(40);
+      cursor: pointer;
 
       // z-index: 0;
       &:nth-child(1) {
@@ -5189,12 +5190,14 @@
     .vacancy_block {
       width: 100%;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
 
       .vacancy_item {
         display: flex;
         flex-direction: column;
         width: calc(50% - 0.938rem);
+        margin-bottom: 15px;
 
         .position {
           font-family: TT Norms Pro;
@@ -5972,6 +5975,7 @@
       margin-top: 0;
 
       .img_block_item {
+    
         width: 30%;
         bottom: 0;
         display: flex;
@@ -7353,3 +7357,9 @@ header .phone{
   align-items: center;
   margin-right: 15px;
 }
+
+#jGrowl{background: linear-gradient(121.24deg, #0099FF 0%, #5ABBFF 99.99%, #5BBCFF 100%)!important;border-radius:12px; max-width:100%}
+#jGrowl .jGrowl-notification{background: linear-gradient(121.24deg, #0099FF 0%, #5ABBFF 99.99%, #5BBCFF 100%)!important}
+#jGrowl .jGrowl-notification .jGrowl-close{background:none!important;color:#181818!important;font-weight:400;font-size:24px;position:absolute;right:0;top:0}
+#jGrowl .jGrowl-notification .jGrowl-message{background:none;color:#181818!important}
+#jGrowl.top-right{right:calc(50% - 135px);}
