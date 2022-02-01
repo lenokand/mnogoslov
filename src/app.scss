@@ -105,6 +105,18 @@
     .container {
       max-width: 90%;
     }
+    section.progress .progress_block {
+     
+      margin-left: -15px;
+      margin-right: -15px;
+
+      .progress_item {
+        // width: calc((100% - 3.75rem)/3);
+        width: calc(50% - 30px);
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      }
 
     .progress,
     .stages,
@@ -215,19 +227,23 @@
     padding: toRem(25);
     display: flex;
     justify-content: space-between;
-
+    align-items: flex-start;
     .wrapper {
       display: flex;
+      flex-wrap: wrap;
     }
 
     .logo {
       display: flex;
       align-items: center;
-      margin-right: toRem(90);
-
+      margin-right: toRem(60);
+      margin-bottom: 15px;
+      .logo_sign{
+        font-size: 10px;
+      }
       .line {
-        margin-left: toRem(18);
-        margin-right: toRem(18);
+        margin-left: toRem(10);
+        margin-right: toRem(10);
         background: #EBEBEB;
         width: 1px;
         height: toRem(38);
@@ -245,26 +261,62 @@
       font-size: 18px;
       line-height: toRem(22);
 
-
+      margin-top: 10px;
       z-index: 7;
       color: #282828;
 
     }
 
-    .phone a {
-      display: flex;
-      align-items: center;
-      font-family: TT Norms Pro;
-      font-style: normal;
-      font-weight: bold;
-      font-size: toRem(21);
-      line-height: toRem(25);
-
-      color: #282828;
-
+    .phone{
+      a {
+        display: flex;
+        align-items: center;
+        font-family: TT Norms Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: toRem(21);
+        line-height: toRem(25);
+  
+        color: #282828;
+  
+       
+      }
       svg {
         // fill: #0099FF;
-        margin-right: toRem(12);
+        margin-right: 12px;
+      }
+      .phone_callback{
+        color: #0099FF;
+// text-decoration: underline dashed;
+      border-bottom: 1px dashed;
+      width: fit-content;
+      background: #FFFFFF;
+      box-shadow: 0px 18px 30px -18px rgba(0, 0, 0, 0.24);
+      border-radius: 5px;
+
+      }
+
+    } 
+    .adres{
+      padding-right: toRem(10);
+      background: #FFFFFF;
+      box-shadow: 0px 18px 30px -18px rgba(0, 0, 0, 0.24);
+      border-radius: 100px;
+      display: flex;
+      align-items: center;
+      // justify-content: center;
+      margin-right: 15px;
+
+      font-size: 16px;
+line-height: 19px;
+
+color: #282828;
+height: fit-content;
+    align-self: center;
+
+      svg{
+        margin-right: 12px;
+       
       }
     }
   }
@@ -302,6 +354,7 @@
     &.active {
       transform: translateY(0);
       z-index: 6;
+      overflow-y: auto;
     }
 
     .top_row {
@@ -559,7 +612,25 @@
         flex-direction: column;
 
       }
+      .left_subblock{
+        display: flex;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 35px;
 
+        .subblock_item{
+          margin-left: 15px;
+          margin-right: 15px;
+          font-size: 16px;
+        line-height: 24px;
+        width: calc(33% - 30px);
+        .blue_txt{
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 48px;
+        }
+        }
+      }
       .right_main {
         width: 50%;
       }
@@ -995,7 +1066,7 @@
       font-family: TT Norms Pro;
       font-style: normal;
       // font-weight: bold;
-      font-size: toRem(48);
+      font-size: 48px;
       line-height: 124.7%;
       /* identical to box height, or toRem(60) */
 
@@ -1669,8 +1740,8 @@
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: normal;
-      font-size: toRem(24);
-      line-height: toRem(48);
+      font-size: 24px;
+      line-height: 150%;
       /* identical to box height, or 200% */
 
       text-align: center;
@@ -1684,7 +1755,7 @@
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: toRem(48);
+      font-size: 48px;
       line-height: 124.7%;
       /* identical to box height, or toRem(60) */
 
@@ -1735,8 +1806,8 @@
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: normal;
-      font-size: toRem(48);
-      line-height: toRem(60);
+      font-size: 48px;
+      line-height: 125%;
       /* identical to box height, or 125% */
 
       text-align: center;
@@ -1966,7 +2037,7 @@
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: normal;
-      font-size: toRem(48);
+      font-size: 48px;
       line-height: 125%;
       /* or 125% */
 
@@ -2547,7 +2618,7 @@
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: normal;
-      font-size: toRem(48);
+      font-size: 48px;
       line-height: 124.7%;
       /* identical to box height, or toRem(60) */
 
@@ -2766,8 +2837,8 @@
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: normal;
-      font-size: toRem(24);
-      line-height: toRem(48);
+      font-size: 24px;
+      line-height: 150%;
       /* identical to box height, or 200% */
 
       text-align: center;
@@ -2781,7 +2852,7 @@
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: toRem(48);
+      font-size: 48px;
       line-height: 124.7%;
       /* identical to box height, or toRem(60) */
 
@@ -2994,8 +3065,8 @@
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: normal;
-      font-size: toRem(24);
-      line-height: toRem(48);
+      font-size: 24px;
+      line-height: 130%;
       /* identical to box height, or 200% */
 
       text-align: center;
@@ -3009,7 +3080,7 @@
       font-family: TT Norms Pro;
       font-style: normal;
       // font-weight: bold;
-      font-size: toRem(48);
+      font-size: 48px;
       line-height: 124.7%;
       /* identical to box height, or toRem(60) */
 
@@ -3021,19 +3092,24 @@
 
     .progress_block {
       display: flex;
-      justify-content: space-between;
+      // justify-content: space-between;
       flex-wrap: wrap;
+      margin-left: -15px;
+      margin-right: -15px;
 
       .progress_item {
-        width: calc((100% - 3.75rem)/3);
+        // width: calc((100% - 3.75rem)/3);
+        width: calc(33% - 30px);
+        margin-left: 15px;
+        margin-right: 15px;
         margin-bottom: toRem(60);
 
         .number {
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: 800;
-          font-size: toRem(36);
-          line-height: toRem(22);
+          font-size: 36px;
+          line-height: 100%;
           color: #0099FF;
           margin-bottom: toRem(30);
         }
@@ -3042,8 +3118,8 @@
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: bold;
-          font-size: toRem(24);
-          line-height: toRem(22);
+          font-size: 24px;
+          line-height: 100%;
           /* identical to box height, or 92% */
 
 
@@ -3062,7 +3138,7 @@
       font-family: TT Norms Pro;
       font-style: normal;
       // font-weight: bold;
-      font-size: toRem(48);
+      font-size: 48px;
       line-height: 124.7%;
       /* identical to box height, or toRem(60) */
 
@@ -3086,7 +3162,7 @@
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: 800;
-          font-size: toRem(36);
+          font-size: 36px;
           line-height: toRem(22);
           color: #EE6E54;
           margin-bottom: toRem(30);
@@ -3096,8 +3172,8 @@
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: bold;
-          font-size: toRem(24);
-          line-height: toRem(22);
+          font-size: 24px;
+          line-height: 100%;
           /* identical to box height, or 92% */
 
 
@@ -3117,7 +3193,7 @@
       font-family: TT Norms Pro;
       font-style: normal;
       // font-weight: bold;
-      font-size: toRem(48);
+      font-size: 48px;
       line-height: 124.7%;
       /* identical to box height, or toRem(60) */
 
@@ -3141,8 +3217,8 @@
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: 800;
-          font-size: toRem(36);
-          line-height: toRem(22);
+          font-size: 36px;
+          line-height: 100%;
           color: #EE6E54;
           margin-bottom: toRem(30);
         }
@@ -3151,8 +3227,8 @@
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: bold;
-          font-size: toRem(24);
-          line-height: toRem(22);
+          font-size: 24px;
+          line-height: 100%;
           /* identical to box height, or 92% */
 
 
@@ -3219,7 +3295,7 @@
       font-family: TT Norms Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: toRem(48);
+      font-size: 48px;
       line-height: 124.7%;
       /* identical to box height, or 60px */
 
@@ -3500,7 +3576,7 @@
         border-radius: 8px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         padding: toRem(70) toRem(50);
 
@@ -3755,8 +3831,8 @@
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: bold;
-          font-size: toRem(36);
-          line-height: toRem(43);
+          font-size: 36px;
+          line-height: 130%;
 
 
           /* 1 clr */
@@ -3772,7 +3848,7 @@
           font-family: TT Norms Pro;
           font-style: normal;
           font-weight: bold;
-          font-size: toRem(21);
+          font-size: 21px;
           line-height: 143%;
           /* or 143% */
 
@@ -4389,6 +4465,7 @@
         justify-content: center;
 
         svg {
+          max-width: 80%;
           fill: #fff;
         }
 
@@ -4696,6 +4773,34 @@
       }
 
     }
+    .burger-icon.nav-icon-5{
+      // background-color: #fff;
+      // border-radius: 15px;
+      span{
+        border: 2px solid #fff;
+        box-sizing: content-box;
+      }
+    }
+    
+    header .adres{
+      margin-bottom: 15px;
+      align-self: flex-start;
+    }
+    div.lang_block{
+      align-self: flex-start;
+    }
+    section.progress .progress_block {
+     
+      margin-left: 0;
+      margin-right: 0;
+
+      .progress_item {
+        // width: calc((100% - 3.75rem)/3);
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      }
     header .phone{
       margin-bottom: 15px;
     }
@@ -5377,6 +5482,34 @@
     footer .top_row{
       flex-wrap: wrap;
     }
+
+    section.callback form {
+      flex-wrap:wrap ;
+      height: auto;
+      input{
+        margin-right: 10px;
+        width:calc(50% - 10px);
+        z-index: 1;
+        margin-bottom: 15px;
+      }
+      .button_wrapper{
+        z-index: 1;
+        width:calc(50% - 10px);
+        button{
+          width: 100%;
+        }
+      }
+      .form_img{
+        // position: static;
+        height: auto;
+        width: 100px;
+        bottom: 0px;
+      }
+      label input{
+        width: 10px!important;
+
+      }
+    }
     footer .top_row .menu_col .adress_item{
       max-width: 40%;
       line-height: 130%;
@@ -5422,6 +5555,10 @@
         margin-bottom: 1.0625rem;
       }
     }
+    header .phone a{
+      font-size: 14px;
+      line-height: 130%;
+    }
     .seo_guarantee .container .subtitle{
       font-size: 14px;
     }
@@ -5436,22 +5573,29 @@
       width: 40px;
       height: 40px;
     }
+    section.our-garantee .progress_block {
+      flex-wrap: wrap;
+    }
+
+    section.our-garantee .progress_block .progress_item {
+      width: calc(50% - 0.938rem);
+    }
     .block_clients .swiper-button-next, .block_clients .swiper-button-prev{
       border-width: 4px;
     }
-    section.callback form{
-      height: 130px;
-      input{
-        width: 160px;
-        &::placeholder{
-          font-size: 16px;
-        }
-        height: 50px;
-      }
-      .button_call{
-        height: 50px;
-      }
-    }
+    // section.callback form{
+    //   height: 130px;
+    //   input{
+    //     width: 160px;
+    //     &::placeholder{
+    //       font-size: 16px;
+    //     }
+    //     height: 50px;
+    //   }
+    //   .button_call{
+    //     height: 50px;
+    //   }
+    // }
   }
 
 
@@ -5459,10 +5603,14 @@
     header {
       align-items: flex-start;
     }
+    div#callback_fixed,
     div#btn-back-to-top{
       width: 40px;
       height: 40px;
       right: 12%;
+    }
+    div#btn-back-to-top{
+      bottom: 5.5rem;
     }
     .menu_block .bottom_row .copiright {
       font-size: 12px;
@@ -5494,7 +5642,7 @@
       margin-bottom: 40px;
 
       .title {
-        margin-bottom: 40px;
+        margin-bottom: 60px;
         font-size: 26px;
 
       }
@@ -5628,9 +5776,10 @@
     }
 
     section.activity .activity_block .activity_item {
-      width: calc(50% - 0.938rem);
-      text-align: center;
 
+      width: calc(50% - 0.938rem);
+      // text-align: center;
+      margin-bottom: 30px;
       .item_title {
         font-size: 21px;
         margin-bottom: 5px;
@@ -5711,13 +5860,7 @@
       margin-bottom: 30px;
     }
 
-    section.our-garantee .progress_block {
-      flex-wrap: wrap;
-    }
-
-    section.our-garantee .progress_block .progress_item {
-      width: calc(50% - 0.938rem);
-    }
+ 
 
     section.our-garantee,
     section.stages {
@@ -5815,7 +5958,7 @@
       }
 
       .progress_block .progress_item {
-        width: calc(50% - 15px);
+        // width: calc(50% - 15px);
         margin-bottom: 30px;
 
         .number {
@@ -5914,10 +6057,18 @@
         }
       }
     }
+    .seo_guarantee .container{
+      background-size: cover;
+      padding-top: 20px;
+    }
 
     .partners {
       margin-bottom: 40px;
-
+      overflow-x: hidden;
+      .container{
+        padding: 0;
+        overflow:visible;
+      }
       .title {
         font-size: 26px;
         margin-bottom: 30px;
@@ -6160,7 +6311,7 @@
       img {
         transform: translateY(-50px);
         align-self: center;
-
+width: auto;
         margin-right: 0;
         height: 120px;
 
@@ -6353,7 +6504,7 @@
             }
 
             .edge {
-              font-size: 12px;
+              font-size: 14px;
             }
           }
         }
@@ -6468,11 +6619,23 @@
         height: 100%;
       }
     }
+    footer .top_row .menu_col .adress_item{
+      max-width: 50%;
+    }
   }
 
   @media screen and (max-width:730px) {
+    .seo_main .container .left_subblock{
+      display: none;
+    }
     .menu_block .menu {
       flex-direction: column;
+    }
+    .quiz label{
+      margin-bottom: 30px;
+    }
+    section.our-garantee .progress_block .progress_item, section.stages .progress_block .progress_item{
+      width: 100%;
     }
 
     .block_clients .swiper_reviews .swiper-slide .button_row .more_btn {
@@ -6566,14 +6729,26 @@
     .logo_sign {
       font-size: 12px;
     }
-
-    header .phone svg {
-      width: 30px;
+    header .adres{
+      padding-right: 8px;
+    }
+    header .phone svg, header .adres svg {
+      // width: 30px;
+      display: none;
     }
 
     header .wrapper .logo {
-      margin-bottom: 0;
+      margin-bottom: 20px;
     }
+    .container header .phone{
+      margin-bottom: 30px;
+      // align-items: flex-start;
+      a:first-child{
+        margin-bottom: 30px;
+
+      }
+    }
+
   }
 
 
@@ -6583,14 +6758,32 @@
       margin-left: 0;
 
     }
+    footer .top_row .menu_col .adress_item{
+      max-width: 100%;
+    }
     header .lang_block{
       padding-left: 0px;
+    }
+    .seo_guarantee .container .guarantee_block .guarantee_block_item,
+    .dev.seo_guarantee .container .guarantee_block .guarantee_block_item{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      padding-left: 5px;
+      padding-right: 5px;
+      max-width: 300px ;
+    }
+    .dev.seo_guarantee .container .guarantee_block .check_circle,
+    .seo_guarantee .container .guarantee_block .check_circle{
+      margin-right: 0;
+      margin-bottom: 15px;
     }
     section.offers {
 
       .offers_block .offers_item {
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
         position: relative;
         padding: 30px 30px 15px;
 
@@ -6617,10 +6810,21 @@
       }
     }
 
+    .gallery .title{
+      margin-bottom: 60px;
+    }
+    .seo_methods .compared_block .compared_freelans{
+      margin-top: 40px;
+    }
     section.our-garantee .progress_block .progress_item .number {
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+    .swiper-button-next, .swiper-button-prev{
+
+      width: 40px;
+      height: 40px;
     }
 
     .block_clients .container {
@@ -6679,6 +6883,7 @@
     section.commercial form .form_img,
     section.callback form .form_img {
       width: 42%;
+      margin-top: 20px;
     }
 
     .block_clients {
@@ -6792,6 +6997,7 @@
   @media screen and (max-width:550px) {
 
     section.activity .activity_block .activity_item {
+      
       width: 100%;
       // text-align: center;
 
@@ -7074,7 +7280,8 @@
         .img_block {
           width: 45px;
           height: 45px;
-
+          
+          max-width: 45px;
           svg {
             width: 35%;
           }
@@ -7308,9 +7515,29 @@
 
 
 
-  #btn-back-to-top {
+  #callback_fixed {
     position: fixed;
     bottom: toRem(24);
+    right: toRem(74);
+    width: toRem(74);
+    height: toRem(74);
+display: flex;
+    border-radius: 120%;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    //    transform: rotate(-90deg);
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(121.24deg, #0099FF 0%, #5ABBFF 99.99%, #5BBCFF 100%);
+    svg{
+      max-width: 50%;
+    }
+
+  }
+  #btn-back-to-top {
+    position: fixed;
+    bottom: toRem(120);
     right: toRem(74);
     width: toRem(74);
     height: toRem(74);
@@ -7331,6 +7558,13 @@
   .lang_block{
     display: flex;
     align-items: center;
+    background: #FFFFFF;
+border: 2px solid #E2E2E2;
+box-sizing: border-box;
+border-radius: 6px;
+height: fit-content;
+padding: 2px 7px;
+align-self: center;
     .lang_line{
       background: #C9C9C9;
       width: 2px;
@@ -7347,7 +7581,7 @@ line-height: 22px;
 
 color: #C9C9C9;
 &.active{
-  color: #282828;
+  color: #0099FF;
 }
     }
   }

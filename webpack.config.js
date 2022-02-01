@@ -2,7 +2,7 @@ const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-
+var ImageminPlugin = require('imagemin-webpack-plugin').default
 module.exports = {
     entry: ['./src/app.js', './src/app.scss'],
     output: {
@@ -26,6 +26,14 @@ module.exports = {
                     from: './src/public'
                 }
             ]
+        }),
+        new ImageminPlugin({
+            disable: process.env.NODE_ENV !== 'production', // Disable during development
+            test: /\.(jpe?g|png|gif|svg)$/i ,
+            pngquant: {
+                quality: '20-30'
+              }
+        
         }),
         new HtmlWebpackPlugin({
             filename: 'index.html',
